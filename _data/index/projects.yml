@@ -1,4 +1,4 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+- name: Generation and fit of data for educational data mining systems.
+  descr: "This work aims to generate and adapt data sets for two educational data mining systems under development at the Faculty of Technology of UNICAMP. The first system is going to be a simulator of student behavior along the course (grades, frequency, etc). The second system works as a XML file generator that turns school records into readable files for CourseViewer software."
   image: pong.png
-  github: https://github.com/renyuanz/leonids
+  github: https://github.com/gatihe/simulador
