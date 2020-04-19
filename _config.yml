@@ -5,16 +5,16 @@
 #
 title: Leonids
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: Junior developer and Data Science enthusiast.
 url: https://guiati9.dev
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "data-science", "machine-learning", "data", "science", "guilherme", "atihe", "oliveira", "guiati9", "gatihe"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          America/Sao_Paulo
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,11 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: Guilherme Atihe de Oliveira
   avatar: profile_pic.jpg
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  job: "Junior Developer"
+  bio: "Junior developer and Data Science enthusiast."
+  email: atihe.guilherme@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -48,10 +48,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: gatihe
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: guilherme-atihe-de-oliveira-58451191
   skype: #username
   xing: #username
   instagram: #username
