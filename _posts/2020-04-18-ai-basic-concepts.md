@@ -2,7 +2,7 @@
 layout: post
 title: "AI Basic Concepts"
 excerpt: "Approaching basic AI topics, such as Turing Tests and the Chinese Room Argument."
-categories: [artificial-intelligence]
+categories: [artificial intelligence]
 comments: true
 ---
 
