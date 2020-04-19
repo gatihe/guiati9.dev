@@ -1,4 +1,4 @@
-- name: Generation and fit of data for educational data mining systems.
+- name: Generation and fit of data for educational data mining systems
   descr: "This work aims to generate and adapt data sets for two educational data mining systems under development at the Faculty of Technology of UNICAMP. The first system is going to be a simulator of student behavior along the course (grades, frequency, etc). The second system works as a XML file generator that turns school records into readable files for CourseViewer software."
   image: pong.png
   github: https://github.com/gatihe/simulador
