@@ -6,11 +6,7 @@ categories: [artificial intelligence]
 comments: true
 ---
 
-“Ciência multidisciplinar que busca desenvolver e
-aplicar técnicas computacionais que simulem o
-comportamento inteligente em atividades específicas”
-
-
+Approaching basic AI topics, such as Turing Tests and the Chinese Room Argument.
 
 ## Definitions:
 
@@ -40,7 +36,7 @@ It is not unusual to see more than one AI paradigm beign applied to solve one si
 
 ## Applications:
 
-AI techniques can be used for multiple purposes, some of them are:
+AI techniques can be used for multiple purposes, some of the most known of them are:
 
 * Product Recommendation: - How to make custom product recommendations? How to shape buyers profiles based on navigation and shop data?
 * Web Searches: - How to locate and identify relevant information according to users searches?
