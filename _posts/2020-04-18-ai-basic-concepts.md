@@ -74,3 +74,22 @@ Some researchers say that this software wouldn't just be a model of the human mi
 * __Weak AI:__ Considers AI just a branch of Computer Science like any other.
 
 ## The Chinese Room Argument
+
+Let's consider an unknown language to a random person, such as the Chinese. To this person, the language is merely a set of symbols without any meaning.
+
+This person is put on a room with baskets filled with symbols that represent the Chinese language. Consider that there is also a book written in the person native language that contains rules to compose the symbols and assemble sentences in Chinese. This book indicates the rules through the shape of the symbols and does not require any logical thinking about the symbols. Therefore, to understand the book the person only needs to identify the symbols and understand how to put them together to make sentences.
+
+In order to communicate, people fluent in Chinese from outside of the room also manipulate symbols to ask the person inside the room questions.
+
+Even assuming that the person inside the room presents answers undistinguishable from someone who speaks Chinese, it isn't possible to state that this person really learned how to communicate in Chinese. After consulting the book of rules, the person might be able to understand the questions asked and even answer them, but this person completely ignores the Chinese idiom. Learning Chinese through this book is not possible once the meaning of the symbols were not presented on it.
+
+A parallel with a computer would be: the software is represented by the book of rules, the baskets containing the symbols are the database, the symbols used by the people outside the room are the user input, and the symbols returned by the person in the room are represents the output interface.
+
+The main concept of this argument that opposes to Strong AI is that if someone can't understand Chinese following only an algorithm, so the capability of manipulating symbols presented by a computer also doesn't mean that the computer "understands" Chinese. It is possible to say that computers only handles formal symbols according to the rules presented on the software.
+
+The idea presented by the Chinese Room Argument can also be applied to other forms of cognition. __The ability to handle symbols is no guarantee of cognition, perception and understanding__ and since computers are no more than symbols handlers, the act of running a software doesn't imply cognition.
+
+Weak AI suggests that computers can simulate some performances in specific areas in a very similar way to the humans but it doesn't make them possessors of "intelligence".
+
+
+The Chinese Room Argument comes as a counter-example to Strong AI
