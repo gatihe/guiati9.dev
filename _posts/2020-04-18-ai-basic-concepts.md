@@ -72,3 +72,5 @@ Some researchers say that this software wouldn't just be a model of the human mi
 
 * __Strong AI:__ This approach suggests that a computer software that knows how do execute tasks just as well done as humans could, is in fact playing the role of the human mind.
 * __Weak AI:__ Considers AI just a branch of Computer Science like any other.
+
+## The Chinese Room Argument
