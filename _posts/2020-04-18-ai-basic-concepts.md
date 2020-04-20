@@ -6,11 +6,15 @@ categories: [artificial intelligence]
 comments: true
 ---
 
-Artificial Intelligence is an area of Computer Science that studies systems that simulate the human ability to reason, perceive, make decisions and solve problems. In other words, the ability to be intelligent.
+“Ciência multidisciplinar que busca desenvolver e
+aplicar técnicas computacionais que simulem o
+comportamento inteligente em atividades específicas”
+
+
 
 ## Definitions:
 
-There are some formal definitions for AI such as:
+Artificial Intelligence is an area of Computer Science that studies systems that simulate the human ability to reason, perceive, make decisions and solve problems. In other words, the ability to be intelligent. There are some formal definitions for AI such as:
 
 > "[Automation of] activities related to the human thinking, activites such decision making, problem solving, learning..." (Bellman, 1956)
 
@@ -20,14 +24,9 @@ There are some formal definitions for AI such as:
 
 >"AI can be defined as the branch of Computer Science in charge to automate intelligent behavior" (Luger, 2004)
 
-* Sartorial hoodie
-* Labore viral forage
-* Tote bag selvage
-* DIY exercitation et id ugh tumblr church-key
+As we can see, AI can have multiple definitions and it may depend on which way it is going to be approached. The following content to be posted here will adopt the following definition:
 
-Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.
-
-Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven't heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney's Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.
+> Multidisciplinary science that applies computing techniques that simulate intelligent behavior on specific activities.
 
 ## Applications:
 
