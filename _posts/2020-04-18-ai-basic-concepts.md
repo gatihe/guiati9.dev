@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI Basic Concepts"
+title: "AI - Introductory Concepts"
 excerpt: "Approaching basic AI topics, such as Turing Tests and the Chinese Room Argument."
 categories: [artificial intelligence]
 comments: true
@@ -61,12 +61,14 @@ In order to pass the Turing Test, the software would have to present the followi
 * Knowledge representation
 * Automated reasoning
 * Machine learning
-* \*The Turing Test avoids physical interaction so it can focus on it's intelligence. The "Total Turing Test" includes video signal to test the software's perception and also allow objects manipulation (robotics).
 
+\*The Turing Test avoids physical interaction so it can focus on it's intelligence. The "Total Turing Test" includes video signal to test the software's perception and also allow objects manipulation (robotics).
 
-## Strong AI x Weak AI - The Chinese Room Argument:
+#### Strong AI x Weak AI:
 
-In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's.
+This test says that if a computer software could execute tasks in a way that an expert couldn't distinguish it's performance from an human's performance, then the software would have the same capability to learn as a human has.
+
+Some researchers say that this software wouldn't just be a model of the human mind, it would be literally a mind. This idea is not a unanimity on AI, a much more reasonable approach suggests that it consists of computers modeling and studying the human mind the same way computers can study weather, statistics or economy.
 
 * Sartorial hoodie
 * Labore viral forage
