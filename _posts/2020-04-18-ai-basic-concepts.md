@@ -50,6 +50,20 @@ Later, Polish mathematicians were able to first break the cryptography of Enigma
 With the help of sophisticated statistical models he developed, Turing also designed a machine to automate the process of decrypting these messages, the Bombe machine.
 On 1950, Turing published an article called "Computing Machinery and Intelligence" that studies the concept of intelligence on artificial systems and tries to define __when is it possible to consider that an artificial system does really possess intelligence__. He also proposed what later would become the Turing Test, which evaluates the ability of a machine to behave with intelligence just as an human being.
 
+The movie "Imitation Game" represented it as a test played by three people, a man (A), a woman (B) and an interrogator (C). The interrogator stays in a room apart from the man and the woman and has the goal to determine which one of them is the man and which one is the woman. The man and woman are known by the interrogator as labels "X" and "Y" and the interrogator is allowed to make questions to "A" and "B" by the end of the game he must correctly associate "Y" and "X" to "A" and "B".
+
+Turing suggests that in this game, one of them (apart from the interrogator) should be replaced with a machine. A good performance in this test is defined by the difficulty to tell the difference between the interactions and to point which one is the machine.
+
+Every year, Cambridge University offers the Loebner Prize, where people are chosen to interact with other people and also computer softwares and try to identify when aren't they interacting with a software. The Turing Test criteria may vary once software may also vary (chatbots, games, etc). Turing has also predicted that by the year 2000 machines would easily pass this kind of tests.
+
+In order to pass the Turing Test, the software would have to present the following abilities:
+* Natural language processing
+* Knowledge representation
+* Automated reasoning
+* Machine learning
+* \*The Turing Test avoids physical interaction so it can focus on it's intelligence. The "Total Turing Test" includes video signal to test the software's perception and also allow objects manipulation (robotics).
+
+
 ## Strong AI x Weak AI - The Chinese Room Argument:
 
 In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's.
