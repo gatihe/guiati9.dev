@@ -90,6 +90,3 @@ The main concept of this argument that opposes to Strong AI is that if someone c
 The idea presented by the Chinese Room Argument can also be applied to other forms of cognition. __The ability to handle symbols is no guarantee of cognition, perception and understanding__ and since computers are no more than symbols handlers, the act of running a software doesn't imply cognition.
 
 Weak AI suggests that computers can simulate some performances in specific areas in a very similar way to the humans but it doesn't make them possessors of "intelligence".
-
-
-The Chinese Room Argument comes as a counter-example to Strong AI
