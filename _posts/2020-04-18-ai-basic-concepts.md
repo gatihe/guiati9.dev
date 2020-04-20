@@ -30,30 +30,25 @@ Since there is no established unifying theory or paradigm that guides AI researc
 
 * Symbolic: Knowledge representation is based on symbols. Good examples are: Expert Systems, Logical Agents, Fuzzy Logic
 * Connectionism: Knowledge representation is based on how the brain works. Good examples are: Artificial Neural Nets
-* Bioinspired: Knowledge representation is based on the simulation of behaviors found in nature. Good examples are: Genetic algorithms, Collective Intelligence, RNA.
+* Bio-Inspired: Knowledge representation is based on the simulation of behaviors found in nature. Good examples are: Genetic algorithms, Collective Intelligence, RNA.
 
-It is not unusual to see more than one AI paradigm beign applied to solve one single problem. The technique of mixing paradigms is called __Soft Computing__. The most frequent resources combined to solve problems are neural nets, fuzzy logic, bioinspired computing and other intelligent algorithms.
+It is not unusual to see more than one AI paradigm being applied to solve one single problem. The technique of mixing paradigms is called __Soft Computing__. The most frequent resources combined to solve problems are neural nets, fuzzy logic, bio-inspired computing and other intelligent algorithms.
 
 ## Applications:
 
 AI techniques can be used for multiple purposes, some of the most known of them are:
 
-* Product Recommendation: - How to make custom product recommendations? How to shape buyers profiles based on navigation and shop data?
+* Product Recommendation: - How to make custom product recommendations? How to shape buyers profiles based on navigation and shopping data?
 * Web Searches: - How to locate and identify relevant information according to users searches?
 * Gaming: - How to design appropriate characters behaviors? How to allow an interesting interaction with the player?
 
 ## Turing Tests:
 
-In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's.
+During World War II, the Germans developed and used a machine called Enigma to encrypt military instructions. The cryptography of this machine was earlier considered unbreakable.
+Later, Polish mathematicians were able to first break the cryptography of Enigma's in a very particular operation mode. Alan Turing's ideas made it possible to generalize this method in a way that any encrypted message from Enigma could be decrypted.
+With the help of sophisticated statistical models he developed, Turing also designed a machine to automate the process of decrypting these messages, the Bombe machine.
+On 1950, Turing published an article called "Computing Machinery and Intelligence" that studies the concept of intelligence on artificial systems and tries to define __when is it possible to consider that an artificial system does really possess intelligence__.
 
-* Sartorial hoodie
-* Labore viral forage
-* Tote bag selvage
-* DIY exercitation et id ugh tumblr church-key
-
-Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.
-
-Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven't heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney's Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.
 
 ## Strong AI x Weak AI - The Chinese Room Argument:
 
