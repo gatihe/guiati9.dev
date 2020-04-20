@@ -42,13 +42,13 @@ AI techniques can be used for multiple purposes, some of the most known of them 
 * Web Searches: - How to locate and identify relevant information according to users searches?
 * Gaming: - How to design appropriate characters behaviors? How to allow an interesting interaction with the player?
 
-## Turing Tests:
+## Turing Test:
 
 During World War II, the Germans developed and used a machine called Enigma to encrypt military instructions. The cryptography of this machine was earlier considered unbreakable.
 Later, Polish mathematicians were able to first break the cryptography of Enigma's in a very particular operation mode. Alan Turing's ideas made it possible to generalize this method in a way that any encrypted message from Enigma could be decrypted.
-With the help of sophisticated statistical models he developed, Turing also designed a machine to automate the process of decrypting these messages, the Bombe machine.
-On 1950, Turing published an article called "Computing Machinery and Intelligence" that studies the concept of intelligence on artificial systems and tries to define __when is it possible to consider that an artificial system does really possess intelligence__.
 
+With the help of sophisticated statistical models he developed, Turing also designed a machine to automate the process of decrypting these messages, the Bombe machine.
+On 1950, Turing published an article called "Computing Machinery and Intelligence" that studies the concept of intelligence on artificial systems and tries to define __when is it possible to consider that an artificial system does really possess intelligence__. He also proposed what later would become the Turing Test, which evaluates the ability of a machine to behave with intelligence just as an human being.
 
 ## Strong AI x Weak AI - The Chinese Room Argument:
 
