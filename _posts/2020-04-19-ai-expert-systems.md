@@ -41,9 +41,6 @@ The knowledge base is where the expert systems store sets of knowledge represent
 
   - __If__  light is green,
   - __then__ go foward.
-- Work memory
-- Inference engine
-- Interface
 
 ## Production Rule Systems:
 
