@@ -11,15 +11,17 @@ comments: true
 
 ## Definition:
 
-By definition, agent is someone who acts.
+>A **agent** is any entity that is capable of perceiving its environment through sensors, execute data and knowledge processing tasks and acts on it through effectors - Russel & Norvig, 2004.
 
->A **agent** is any entity that is capable of perceiving its environment through sensors, execute data and knowledge processing tasks and acts on it through actuators - Russel & Norvig, 2004.
+A _human agent_ has eyes, ears, and other organs as sensors, and also have hands, legs, mouth and other body parts that are considered effectors. A _robotic agent_ could have cameras, signal or wave detects acting like sensors and engines as effectors.
 
-A _human agent_ has eyes, ears, and other organs as sensors, and also have hands, legs, mouth and other body parts that are considered actuators. A _robotic agent_ could have cameras, signal or wave detects acting like sensors and engines as actuators.
-
-
-
-## Characteristics:
+A generic agent is composed by:
+- Perceptions: Originated from the environment and captured by agents through its sensors.
+- Sensors: Mechanisms that allows the agent to capture perceptions.
+- Environment: Domain which agent interacts with.
+- Actions: Tasks that effects the environment, based on perceptions and executed by the agents.
+- Effectors: Allow the agent to execute its actions.
+- Performance: Success measure instrument of an agent.
 
 An ES is a software that behaves as some expert in a, usually restrict, application domain. This kind of system should be able to solve problems that requires specific knowledge of a specific domain.
 
