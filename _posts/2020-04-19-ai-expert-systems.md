@@ -18,23 +18,23 @@ An ES is a software that behaves as some expert in a, usually restrict, applicat
 
 There are good reasons to consider simulating an human experts, once they are expensive, rare, busy, emotional and mortal.
 
-On the medical field, expert systems have a very broad application, such as:
+Expert systems have a very broad application, such as:
 
-- Decision support:
- - Application of standardized diagnostic methods such as interpretation of test results.
+- (Medicine) Decision support:
+  - Application of standardized diagnostic methods such as interpretation of test results.
 
- - Quality Assurance:
+- (Medicine) Quality Assurance:
   - Audit medical decisions such as the need of some sort of procedure.
+
+- (Agriculture) Diagnostic:
+  - Expert system to identify diseases, plagues and physiological disturbs on grapevine crops.
 
 ## Expert Systems Components:
 
-Since there is no established unifying theory or paradigm that guides AI research and development due to different points of view of researchers, there are some paradigms that are more common and usual.
-
-* Symbolic: Knowledge representation is based on symbols. Good examples are: Expert Systems, Logical Agents, Fuzzy Logic
-* Connectionism: Knowledge representation is based on how the brain works. Good examples are: Artificial Neural Nets
-* Bio-Inspired: Knowledge representation is based on the simulation of behaviors found in nature. Good examples are: Genetic algorithms, Collective Intelligence, RNA.
-
-It is not unusual to see more than one AI paradigm being applied to solve one single problem. The technique of mixing paradigms is called __Soft Computing__. The most frequent resources combined to solve problems are neural nets, fuzzy logic, bio-inspired computing and other intelligent algorithms.
+- Knowledge base
+- Work memory
+- Inference engine
+- Interface
 
 ## Expert Systems Architecture:
 
