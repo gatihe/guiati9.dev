@@ -72,7 +72,35 @@ This type of agent works based on a sense of utility. It also has goals and the 
 
 Learning agents are capable of acquire knowledge while facing new contexts (combinations of environment conditions and perceptions). In order to act, a learning agent will perceive the environment with sensors, compare the current environment and learn from its differences and similarities and, only then, act.
 
-## Problem Solving With Rational Agents
+## Problem-Solving Rational Agents:
+
+A rational agent should be able to decide _what to do_ through picking a logic sequence of actions that leads it to problem's _solution_.
+
+A problem may have one or multiple __initial states__ (problems contexts given the time it will start being solved). And also could have on or multiple __final states__ (final environment context when its already solved).
+
+When applying the problem solving context on rational agents, it is possible to say that they present as components:
+
+- Problem: Situation to be resolved through reasoning.
+- Initial State: State where agent is found by the beginning of the problem's resolution.
+- Actions: Set of possible actions available to the agent.
+- State space: Set of all possible states of the agent through the application of a course of actions.
+- Path: Sequence of actions that leads the agent from one state to another.
+- Goal State: State where problem is solved.
+- Path's Cost: Sum of cost from initial state to current state.
+
+. We talking about rational agents, the term _search for solution_ can be defined as the selection of a sequence of actions made by rational agents take them to a certain solution (path from initial state to the goal state).
+
+### Problem-solving steps:
+
+1. Identify the problem
+2. 
+
+
+
+
+
+
+
 
 
 ![Romanian Map Represented as a Graph](/img/posts_img/romanian_map.jpg)
