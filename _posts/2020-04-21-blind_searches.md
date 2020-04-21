@@ -20,6 +20,10 @@ Search trees are composed by associated nodes that are represented by:
 
 ![Representation of two connected nodes of a Search Tree](/img/posts_img/node_representation.png)
 
+### Nodes notation:
+
+U
+
 ## Breadth-first Search (BFS) Algorithm
 
 ### Backtracking
