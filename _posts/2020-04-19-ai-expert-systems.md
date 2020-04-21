@@ -34,7 +34,7 @@ Since there is no established unifying theory or paradigm that guides AI researc
 
 It is not unusual to see more than one AI paradigm being applied to solve one single problem. The technique of mixing paradigms is called __Soft Computing__. The most frequent resources combined to solve problems are neural nets, fuzzy logic, bio-inspired computing and other intelligent algorithms.
 
-## Production Rule Systems:
+## Expert Systems Architecture:
 
 AI techniques can be used for multiple purposes, some of the most known of them are:
 
@@ -42,7 +42,7 @@ AI techniques can be used for multiple purposes, some of the most known of them 
 * Web Searches: - How to locate and identify relevant information according to users searches?
 * Gaming: - How to design appropriate characters behaviors? How to allow an interesting interaction with the player?
 
-## Turing Test:
+## Production Rule Systems:
 
 During World War II, the Germans developed and used a machine called Enigma to encrypt military instructions. The cryptography of this machine was earlier considered unbreakable.
 Later, Polish mathematicians were able to first break the cryptography of Enigma's in a very particular operation mode. Alan Turing's ideas made it possible to generalize this method in a way that any encrypted message from Enigma could be decrypted.
@@ -64,7 +64,10 @@ In order to pass the Turing Test, the software would have to present the followi
 
 \*The Turing Test avoids physical interaction so it can focus on it's intelligence. The "Total Turing Test" includes video signal to test the software's perception and also allow objects manipulation (robotics).
 
-#### Strong AI x Weak AI:
+### Inference Mechanism:
+
+### Foward Chaining
+### Backward Chaining
 
 This test says that if a computer software could execute tasks in a way that an expert couldn't distinguish it's performance from an human's performance, then the software would have the same capability to learn as a human has.
 
@@ -73,7 +76,7 @@ Some researchers say that this software wouldn't just be a model of the human mi
 * __Strong AI:__ This approach suggests that a computer software that knows how do execute tasks just as well done as humans could, is in fact playing the role of the human mind.
 * __Weak AI:__ Considers AI just a branch of Computer Science like any other.
 
-## The Chinese Room Argument
+## Expert Systems Classification
 
 Let's consider an unknown language to a random person, such as the Chinese. To this person, the language is merely a set of symbols without any meaning.
 
@@ -82,6 +85,8 @@ This person is put on a room with baskets filled with symbols that represent the
 In order to communicate, people fluent in Chinese from outside of the room also manipulate symbols to ask the person inside the room questions.
 
 Even assuming that the person inside the room presents answers undistinguishable from someone who speaks Chinese, it isn't possible to state that this person really learned how to communicate in Chinese. After consulting the book of rules, the person might be able to understand the questions asked and even answer them, but this person completely ignores the Chinese idiom. Learning Chinese through this book is not possible once the meaning of the symbols were not presented on it.
+
+## Pros and Cons
 
 A parallel with a computer would be: the software is represented by the book of rules, the baskets containing the symbols are the database, the symbols used by the people outside the room are the user input, and the symbols returned by the person in the room are represents the output interface.
 
