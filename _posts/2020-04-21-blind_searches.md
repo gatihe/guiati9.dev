@@ -18,6 +18,8 @@ Search trees are composed by associated nodes that are represented by:
 - Pointer to antecessor node,
 - Cost of getting to current state (this value is calculated according to the search algorithm logic applied)
 
+![Representation of two connected nodes of a Search Tree](/img/posts_img/node_representation.png)
+
 ## Breadth-first Search (BFS) Algorithm
 
 ### Backtracking
