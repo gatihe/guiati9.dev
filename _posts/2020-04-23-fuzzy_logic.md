@@ -8,12 +8,12 @@ comments: true
 
 ## Motivation
 
-## Heuristics
+## Classical Set Thory
 
-## Evaluation Function
+## Fuzzy Set Theory
 
-## Greedy Algorithms
+### Membership Functions
 
-### Best-first Search Algorithm
+### Linguistic Variables
 
-### A* Search Algorithm
+### Fuzzification
