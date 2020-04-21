@@ -51,7 +51,7 @@ The knowledge base is where the expert systems store sets of knowledge represent
 
 - Rules:
   - __If__ animal_has_legs(x) and animal_has_beak(x), __then__ animal is bird(x).
-  - __If__ temperature_over_37_degrees(x), then has_fever(x).
+  - __If__ temperature_over_37_degrees(x), __then__ has_fever(x).
 
 #### Working Memory:
 
