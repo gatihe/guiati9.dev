@@ -47,6 +47,7 @@ Racionality depends of, at least, four items:
 
 ```
 def agent(perception):
+    memory = []
     memory = update_memory(memory, perception)
     action = choose_best_action(memory)
     return action
