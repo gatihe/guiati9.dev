@@ -11,11 +11,13 @@ comments: true
 
 ## Definition:
 
->A **agent** is any entity that is capable of perceiving its environment through sensors, execute data and knowledge processing tasks and acts on it through actuators. 
+By definition, agent is someone who acts.
+
+>A **agent** is any entity that is capable of perceiving its environment through sensors, execute data and knowledge processing tasks and acts on it through actuators - Russel & Norvig, 2004.
 
 A _human agent_ has eyes, ears, and other organs as sensors, and also have hands, legs, mouth and other body parts that are considered actuators. A _robotic agent_ could have cameras, signal or wave detects acting like sensors and engines as actuators.
 
-By definition, agent is someone who acts.
+
 
 ## Characteristics:
 
