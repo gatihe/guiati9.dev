@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Heuristic Searches"
+title: "Fuzzy Logic"
 excerpt: "Main concepts of blind search algorithms."
 categories: [artificial intelligence]
 comments: true
