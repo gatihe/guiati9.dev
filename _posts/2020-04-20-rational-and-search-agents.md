@@ -33,6 +33,15 @@ Racionality depends of, at least, four items:
 - Knowledge of the environment.
 - Actions for the agent to execute.
 
+A rational agent acts by updating its memory through perception (gathering all knowledge available about the environment) then evaluating, according to its memory, the best action to be taken and, finally, acting. The pseudocode below shows a function that describes the rational agent generically:
+
+```
+def agent(perception):
+    memory = []
+    memory = update_memory(memory, perception)
+    action = choose_best_action(memory)
+    return action
+```
 
 
 ## Application of Rational Agents:
@@ -42,13 +51,3 @@ Racionality depends of, at least, four items:
 |Medical Diagnosis Systems|Healthy pacient, lower costs|Pacient, hospital, team|Keyboard input for symptoms, findings and pacient answers|Output questions, diagnostics|
 |Satelite image analysis system|Correct assumption of image category|Broadcast link of orbiting satelite|Arrays of colors in pixels|Output image categorization|
 |Piece selection robot|Percentage of pieces inside correct trays|Running machines with pieces, trays|Camera, articulated angular sensors|Articulated arm and hand|
-
-##Rational agent basic function:
-
-```
-def agent(perception):
-    memory = []
-    memory = update_memory(memory, perception)
-    action = choose_best_action(memory)
-    return action
-```
