@@ -8,9 +8,14 @@ comments: true
 
 
 # Rational Agents
+
 ## Definition:
 
-We call a *human expert* someone with the knowledge to solve high difficulty problems in a specific knowledge field. An __Expert System__ is a computer software that represents and simulates the knowledge of a specialty field in order to solve problems and provide recommendations.
+>A **agent** is any entity that is capable of perceiving its environment through sensors, execute data and knowledge processing tasks and acts on it through actuators. 
+
+A _human agent_ has eyes, ears, and other organs as sensors, and also have hands, legs, mouth and other body parts that are considered actuators. A _robotic agent_ could have cameras, signal or wave detects acting like sensors and engines as actuators.
+
+By definition, agent is someone who acts.
 
 ## Characteristics:
 
