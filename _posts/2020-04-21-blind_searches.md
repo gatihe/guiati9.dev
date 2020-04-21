@@ -6,11 +6,17 @@ categories: [artificial intelligence]
 comments: true
 ---
 
-## Introduction
-
-
-
 ## Search Trees
+
+As discussed earlier, in order to solve state space problems, rational agents follow search algorithms that adopt different methodologies to explore the state space and reach it's goal. The procedure of searching in a state space problem generates as an output a search tree. The shape of this tree depends on the algorithm adopted to solve the problem.
+
+### Search Tree Structure
+
+Search trees are composed by associated nodes that are represented by:
+
+- Current state,
+- Pointer to antecessor node,
+- Cost of getting to current state (this value is calculated according to the search algorithm logic applied)
 
 ## Breadth-first Search (BFS) Algorithm
 
