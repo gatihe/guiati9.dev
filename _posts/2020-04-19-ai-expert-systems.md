@@ -10,7 +10,7 @@ comments: true
 
 ## Definition:
 
-We call a *human expert* someone with the knowledge to solve high difficulty problems in a specific knowledge field. An *Expert System* is a computer software that represents and simulates the knowledge of a specialty field in order to solve problems and provide recommendations.
+We call a *human expert* someone with the knowledge to solve high difficulty problems in a specific knowledge field. An __Expert System__ is a computer software that represents and simulates the knowledge of a specialty field in order to solve problems and provide recommendations.
 
 ## Characteristics:
 
@@ -29,22 +29,21 @@ Expert systems have a very broad application, such as:
 - (Agriculture) Diagnostic:
   - Expert system to identify diseases, plagues and physiological disturbs on grapevine crops.
 
-## Expert Systems Components:
-
-- Knowledge base
-- Work memory
-- Inference engine
-- Interface
-
 ## Expert Systems Architecture:
 
 ![Expert Systems Architecture](/img/posts_img/es_architecture.png)
 
-AI techniques can be used for multiple purposes, some of the most known of them are:
+#### Knowledge base:
 
-* Product Recommendation: - How to make custom product recommendations? How to shape buyers profiles based on navigation and shopping data?
-* Web Searches: - How to locate and identify relevant information according to users searches?
-* Gaming: - How to design appropriate characters behaviors? How to allow an interesting interaction with the player?
+The knowledge base is where the expert systems store sets of knowledge representation. It formally represents the knowledge of an specific specialty field. It represents the knowledge with pairs of condition-action (if-then).
+  - __If__ condition (or premise),
+  - __Then__ action (result or conclusion).
+
+  - __If__  light is green,
+  - __then__ go foward.
+- Work memory
+- Inference engine
+- Interface
 
 ## Production Rule Systems:
 
