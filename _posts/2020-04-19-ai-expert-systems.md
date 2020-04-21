@@ -68,6 +68,10 @@ It is represented by the interaction with the user. There are two kinds of inter
 - Input interface: consists of input data that will provide resources to the working memory.
 - Output interface: consists of the solutions and diagnostics provided. An expert system must be capable of showing its inference process and justifying its conclusions.
 
+#### Shell
+
+It is called shell the module composed by the expert system's inference engine and interfaces.
+
 ## Production Rule Systems:
 
 During World War II, the Germans developed and used a machine called Enigma to encrypt military instructions. The cryptography of this machine was earlier considered unbreakable.
@@ -115,11 +119,3 @@ Some researchers say that this software wouldn't just be a model of the human mi
  - Monitoring: systems that compares the behavior of real systems with expected ones. Example: a system that tracks data from a nuclear reactor in order to detect possible accident situations.
 
 ## Pros and Cons
-
-A parallel with a computer would be: the software is represented by the book of rules, the baskets containing the symbols are the database, the symbols used by the people outside the room are the user input, and the symbols returned by the person in the room are represents the output interface.
-
-The main concept of this argument that opposes to Strong AI is that if someone can't understand Chinese following only an algorithm, so the capability of manipulating symbols presented by a computer also doesn't mean that the computer "understands" Chinese. It is possible to say that computers only handles formal symbols according to the rules presented on the software.
-
-The idea presented by the Chinese Room Argument can also be applied to other forms of cognition. __The ability to handle symbols is no guarantee of cognition, perception and understanding__ and since computers are no more than symbols handlers, the act of running a software doesn't imply cognition.
-
-Weak AI suggests that computers can simulate some performances in specific areas in a very similar way to the humans but it doesn't make them possessors of "intelligence".
