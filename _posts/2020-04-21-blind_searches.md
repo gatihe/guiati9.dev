@@ -22,7 +22,8 @@ Search trees are composed by associated nodes that are represented by:
 
 ### Nodes notation:
 
-U
+Adopting mathematical notation, nodes are represented by an array:
+- n<sub>i</sub> = 
 
 ## Breadth-first Search (BFS) Algorithm
 
