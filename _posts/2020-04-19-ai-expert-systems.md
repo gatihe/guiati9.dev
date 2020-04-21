@@ -8,21 +8,23 @@ comments: true
 
 
 
-## Definitions:
+## Definition:
 
-Artificial Intelligence is an area of Computer Science that studies systems that simulate the human ability to reason, perceive, make decisions and solve problems. In other words, the ability to be intelligent. There are some formal definitions for AI such as:
+We call a *human expert* someone with the knowledge to solve high difficulty problems in a specific knowledge field. An *Expert System* is a computer software that represents and simulates the knowledge of a specialty field in order to solve problems and provide recommendations.
 
-> "[Automation of] activities related to the human thinking, activites such decision making, problem solving, learning..." (Bellman, 1956)
+## Characteristics:
 
->"The study of mental faculties through the use of computational models" (Charniak and McDermott, 1985)
+An ES is a software that behaves as some expert in a, usually restrict, application domain. This kind of system should be able to solve problems that requires specific knowledge of a specific domain.
 
->"The study of systems that make it possible to perceive, reason and act" (Winston, 1992)
+There are good reasons to consider simulating an human experts, once they are expensive, rare, busy, emotional and mortal.
 
->"AI can be defined as the branch of Computer Science in charge to automate intelligent behavior" (Luger, 2004)
+On the medical field, expert systems have a very broad application, such as:
 
-As we can see, AI can have multiple definitions and it may depend on which way it is going to be approached. The following content to be posted here will adopt the following definition:
+- Decision support:
+ - Application of standardized diagnostic methods such as interpretation of test results.
 
-> Multidisciplinary science that applies computing techniques that simulate intelligent behavior on specific activities.
+ - Quality Assurance:
+  - Audit medical decisions such as the need of some sort of procedure.
 
 ## Expert Systems Components:
 
