@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Rational and Search Agents"
-excerpt: "Approaching basic AI topics, such as Turing Tests and the Chinese Room Argument."
+title: "Rational Agents"
+excerpt: "Describing the concept of problem solving rational agents."
 categories: [artificial intelligence]
 comments: true
 ---
@@ -78,7 +78,7 @@ A rational agent should be able to decide _what to do_ through picking a logic s
 
 A problem may have one or multiple __initial states__ (problems contexts given the time it will start being solved). And also could have on or multiple __final states__ (final environment context when its already solved).
 
-When applying the problem solving context on rational agents, it is possible to say that they present as components:
+When applying the problem solving context on rational agents, it is possible to say that they present as _components_:
 
 - Problem: Situation to be resolved through reasoning.
 - Initial State: State where agent is found by the beginning of the problem's resolution.
@@ -92,15 +92,8 @@ When applying the problem solving context on rational agents, it is possible to 
 
 ### Problem-solving steps:
 
-1. Identify the problem
-2. 
-
-
-
-
-
-
-
-
-
-![Romanian Map Represented as a Graph](/img/posts_img/romanian_map.jpg)
+1. Identify the problem;
+2. Represent the problem with rational agent components;
+3. Find a data structure that could fit the problem;
+4. Identify a __search algorithm__ capable of providing the solution;
+5. Apply the search algorithm and find solution.
