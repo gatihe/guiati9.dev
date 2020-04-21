@@ -29,6 +29,17 @@ Expert systems have a very broad application, such as:
 - (Agriculture) Diagnostic:
   - Expert system to identify diseases, plagues and physiological disturbs on grapevine crops.
 
+### Pros of Expert Systems:
+
+- Present the ability of explaining inference process.
+- Present uniform structure. Each rule is an independent piece of the available knowledge.
+- By separating it's knowledge from its processing, it is possible that the same project environment could be applied on different applications.
+
+### Cons of Expert Systems:
+
+- Work mainly with only symbolic reasoning.
+- Aspects as ambiguities and conflicting rules can result on wrong results. 
+
 ## Expert Systems Architecture:
 
 ![Expert Systems Architecture](/img/posts_img/es_architecture.png)
@@ -68,6 +79,9 @@ Working memory is where facts are stored. It represents the data that are presen
 
 The Inference Engine applies problem resolution procedures, deciding how and in which order the rules will be applied and facts will be used.
 
+##### Foward Chaining
+##### Backward Chaining
+
 #### Interface
 
 It is represented by the interaction with the user. There are two kinds of interface:
@@ -78,40 +92,6 @@ It is represented by the interaction with the user. There are two kinds of inter
 #### Shell
 
 It is called shell the module composed by the expert system's inference engine and interfaces.
-
-## Production Rule Systems:
-
-During World War II, the Germans developed and used a machine called Enigma to encrypt military instructions. The cryptography of this machine was earlier considered unbreakable.
-Later, Polish mathematicians were able to first break the cryptography of Enigma's in a very particular operation mode. Alan Turing's ideas made it possible to generalize this method in a way that any encrypted message from Enigma could be decrypted.
-
-With the help of sophisticated statistical models he developed, Turing also designed a machine to automate the process of decrypting these messages, the Bombe machine.
-On 1950, Turing published an article called "Computing Machinery and Intelligence" that studies the concept of intelligence on artificial systems and tries to define __when is it possible to consider that an artificial system does really possess intelligence__. He also proposed what later would become the Turing Test, which evaluates the ability of a machine to behave with intelligence just as an human being.
-
-The movie "Imitation Game" represented it as a test played by three people, a man (A), a woman (B) and an interrogator (C). The interrogator stays in a room apart from the man and the woman and has the goal to determine which one of them is the man and which one is the woman. The man and woman are known by the interrogator as labels "X" and "Y" and the interrogator is allowed to make questions to "A" and "B" by the end of the game he must correctly associate "Y" and "X" to "A" and "B".
-
-Turing suggests that in this game, one of them (apart from the interrogator) should be replaced with a machine. A good performance in this test is defined by the difficulty to tell the difference between the interactions and to point which one is the machine.
-
-Every year, Cambridge University offers the Loebner Prize, where people are chosen to interact with other people and also computer softwares and try to identify when aren't they interacting with a software. The Turing Test criteria may vary once software may also vary (chatbots, games, etc). Turing has also predicted that by the year 2000 machines would easily pass this kind of tests.
-
-In order to pass the Turing Test, the software would have to present the following abilities:
-* Natural language processing
-* Knowledge representation
-* Automated reasoning
-* Machine learning
-
-\*The Turing Test avoids physical interaction so it can focus on it's intelligence. The "Total Turing Test" includes video signal to test the software's perception and also allow objects manipulation (robotics).
-
-### Inference Mechanism:
-
-### Foward Chaining
-### Backward Chaining
-
-This test says that if a computer software could execute tasks in a way that an expert couldn't distinguish it's performance from an human's performance, then the software would have the same capability to learn as a human has.
-
-Some researchers say that this software wouldn't just be a model of the human mind, it would be literally a mind (__Strong AI__). This idea is not a unanimity on AI, a much more reasonable approach suggests that it consists of computers modeling and studying the human mind the same way computers can study weather, statistics or economy (__Weak AI__).
-
-* __Strong AI:__ This approach suggests that a computer software that knows how do execute tasks just as well done as humans could, is in fact playing the role of the human mind.
-* __Weak AI:__ Considers AI just a branch of Computer Science like any other.
 
 ## Expert Systems Classification
 
@@ -124,5 +104,3 @@ Some researchers say that this software wouldn't just be a model of the human mi
  - Planning: they are systems able to elaborate action strategies before actions are taken. Systems that are capable to plan the production line of a factory are a good example.
 
  - Monitoring: systems that compares the behavior of real systems with expected ones. Example: a system that tracks data from a nuclear reactor in order to detect possible accident situations.
-
-## Pros and Cons
