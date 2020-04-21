@@ -78,13 +78,15 @@ Some researchers say that this software wouldn't just be a model of the human mi
 
 ## Expert Systems Classification
 
-Let's consider an unknown language to a random person, such as the Chinese. To this person, the language is merely a set of symbols without any meaning.
+- Interpretation: this type of ES is capable of inferring situations through the evaluation of input data like images, signals and others, via sensors. A good example would be medical systems that monitor blood pressure, heart beat, body temperature and etc.
 
-This person is put on a room with baskets filled with symbols that represent the Chinese language. Consider that there is also a book written in the person native language that contains rules to compose the symbols and assemble sentences in Chinese. This book indicates the rules through the shape of the symbols and does not require any logical thinking about the symbols. Therefore, to understand the book the person only needs to identify the symbols and understand how to put them together to make sentences.
+ - Prognostic: simulate and infer probable consequences of specific scenarios. Systems that can predict demand of oil through the current geopolitical context or predict a city infrastructure damage from an earthquake.
 
-In order to communicate, people fluent in Chinese from outside of the room also manipulate symbols to ask the person inside the room questions.
+ - Diagnostic: infer probable causes of an specific scenario. Like diseases diagnosis through symptoms.
 
-Even assuming that the person inside the room presents answers undistinguishable from someone who speaks Chinese, it isn't possible to state that this person really learned how to communicate in Chinese. After consulting the book of rules, the person might be able to understand the questions asked and even answer them, but this person completely ignores the Chinese idiom. Learning Chinese through this book is not possible once the meaning of the symbols were not presented on it.
+ - Planning: they are systems able to elaborate action strategies before actions are taken. Systems that are capable to plan the production line of a factory are a good example.
+
+ - Monitoring: systems that compares the behavior of real systems with expected ones. Example: a system that tracks data from a nuclear reactor in order to detect possible accident situations.
 
 ## Pros and Cons
 
