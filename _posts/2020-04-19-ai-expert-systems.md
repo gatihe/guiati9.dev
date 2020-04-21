@@ -36,11 +36,13 @@ Expert systems have a very broad application, such as:
 #### Knowledge base:
 
 The knowledge base is where the expert systems store sets of knowledge representation. It formally represents the knowledge of an specific specialty field. It represents the knowledge with pairs of condition-action (if-then).
-  - __If__ condition (or premise),
-  - __Then__ action (result or conclusion).
 
-  - __If__  light is green,
-  - __then__ go foward.
+  | If | Then |
+  -----|-----
+  |Condition (or premise)|action (result or conclusion)|
+  |Light is green|go foward|
+
+
 
 ## Production Rule Systems:
 
