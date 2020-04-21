@@ -44,7 +44,7 @@ def agent(perception):
 ```
 
 
-## Application of Rational Agents:
+## Applications of Rational Agents:
 
 |Agent type|Performance measurement|Environment|Sensors|Effectors|
 |-----|-----|-----|-----|-----|
@@ -53,10 +53,24 @@ def agent(perception):
 |Piece selection robot|Percentage of pieces inside correct trays|Running machines with pieces, trays|Camera, articulated angular sensors|Articulated arm and hand|
 
 
-## Kinds of Rational Agents:
+## Types of Rational Agents:
 
 #### Simple Reactive Agent:
+
+The simple reactive agent choose its actions according to its current perception, completely ignoring the past perceptions (perception history). It is the simplest kind of agent once it has very limited intelligence.
+
 #### Reactive Agent with Internal State:
-#### Object-based Agent:
-#### Utility-based Agent:
+
+This kind of agent is able to store its perception history, environment representations, interaction history and the earlier actions history, which makes it possible to use information beyond the current perception.
+
+#### Goal-based Agent:
+
+Goal-based agents have, as their most important characteristic, the need to be set to accomplish a goal. So, it is capable of storing information just like reactive agents with internal state, but the actions have as a parameter reaching an specific goal and should only stop when the goal is accomplished. It works until an previously set condition is reached.
+
+#### Utility-based Agent (_optimizer_):
+
+This type of agent works based on a sense of utility. It also has goals and the ability to store and process information, but its actions are affected on the idea choosing, from a set of predicted possible futures, the best one according to its goal and also prioritize goals (in case there is more than one).
+
 #### Learning Agent
+
+Learning agents are capable of acquire knowledge while facing new contexts (combinations of environment conditions and perceptions). In order to act, a learning agent will perceive the environment with sensors, compare the current environment and learn from its differences and similarities and, only then, act.
