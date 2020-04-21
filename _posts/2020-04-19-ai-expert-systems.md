@@ -38,6 +38,8 @@ Expert systems have a very broad application, such as:
 
 ## Expert Systems Architecture:
 
+![Expert Systems Architecture](/img/posts_img/es_architecture.png)
+
 AI techniques can be used for multiple purposes, some of the most known of them are:
 
 * Product Recommendation: - How to make custom product recommendations? How to shape buyers profiles based on navigation and shopping data?
