@@ -23,20 +23,12 @@ A generic agent is composed by:
 - Effectors: Allow the agent to execute its actions.
 - Performance: Success measure instrument of an agent.
 
-An ES is a software that behaves as some expert in a, usually restrict, application domain. This kind of system should be able to solve problems that requires specific knowledge of a specific domain.
+What makes an agent rational is its rationality, that depends of, at least, four items:
+- Performance measure that defines the success rate of the agent.
+- All of what the agent has already perceived, or perceptual history.
+- Knowledge of the environment.
+- Actions for the agent to execute.
 
-There are good reasons to consider simulating an human experts, once they are expensive, rare, busy, emotional and mortal.
-
-Expert systems have a very broad application, such as:
-
-- (Medicine) Decision support:
-  - Application of standardized diagnostic methods such as interpretation of test results.
-
-- (Medicine) Quality Assurance:
-  - Audit medical decisions such as the need of some sort of procedure.
-
-- (Agriculture) Diagnostic:
-  - Expert system to identify diseases, plagues and physiological disturbs on grapevine crops.
 
 ### Pros of Expert Systems:
 
