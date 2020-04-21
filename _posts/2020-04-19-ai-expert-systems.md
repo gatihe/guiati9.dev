@@ -53,15 +53,15 @@ The knowledge base is where the expert systems store sets of knowledge represent
   - __If__ animal_has_legs(x) and animal_has_beak(x), __then__ animal is bird(x).
   - __If__ temperature_over_37_degrees(x), then has_fever(x).
 
-### Working Memory:
+#### Working Memory:
 
 Working memory is where facts are stored. It represents the data that are presented to the system by the beginning and during the inference.
 
-### Inference Engine:
+#### Inference Engine:
 
 The Inference Engine applies problem resolution procedures, deciding how and in which order the rules will be applied and facts will be used.
 
-### Interface
+#### Interface
 
 It is represented by the interaction with the user. There are two kinds of interface:
 
