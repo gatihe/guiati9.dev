@@ -23,7 +23,10 @@ Search trees are composed by associated nodes that are represented by:
 ### Nodes notation:
 
 Adopting mathematical notation, nodes are represented by an array:
-- n<sub>i</sub> = 
+- n<sub>i</sub> = (e<sub>i</sub>, p<sub>i</sub>, g<sub>i</sub>), where:
+  - e<sub>i</sub> is the current state;
+  - p<sub>i</sub> is the antecessor node to node n<sub>i</sub>;
+  - g<sub>i</sub> represents the cost.
 
 ## Breadth-first Search (BFS) Algorithm
 
