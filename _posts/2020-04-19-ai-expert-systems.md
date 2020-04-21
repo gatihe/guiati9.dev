@@ -53,6 +53,8 @@ The knowledge base is where the expert systems store sets of knowledge represent
   - __If__ animal_has_legs(x) and animal_has_beak(x), __then__ animal is bird(x).
   - __If__ temperature_over_37_degrees(x), then has_fever(x).
 
+### Working Memory: 
+
 ## Production Rule Systems:
 
 During World War II, the Germans developed and used a machine called Enigma to encrypt military instructions. The cryptography of this machine was earlier considered unbreakable.
