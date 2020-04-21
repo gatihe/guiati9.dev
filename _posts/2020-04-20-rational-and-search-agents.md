@@ -23,11 +23,16 @@ A generic agent is composed by:
 - Effectors: Allow the agent to execute its actions.
 - Performance: Success measure instrument of an agent.
 
-What makes an agent rational is its rationality, that depends of, at least, four items:
+Rational agents present 'rationality', which can be defined as the fulfillment of the performance criteria according the ambient, possible actions and its perceptions.
+
+To each sequence of perceptions, a rational agent should do what would maximize its performance measure, based on its set of perceptions, knowledge and sequence of actions.
+
+Racionality depends of, at least, four items:
 - Performance measure that defines the success rate of the agent.
 - All of what the agent has already perceived, or perceptual history.
 - Knowledge of the environment.
 - Actions for the agent to execute.
+
 
 
 ### Pros of Expert Systems:
