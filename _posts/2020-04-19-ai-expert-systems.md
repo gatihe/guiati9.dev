@@ -8,11 +8,11 @@ comments: true
 
 
 
-## Definition:
+## Definition
 
 We call a *human expert* someone with the knowledge to solve high difficulty problems in a specific knowledge field. An __Expert System__ is a computer software that represents and simulates the knowledge of a specialty field in order to solve problems and provide recommendations.
 
-## Characteristics:
+## Characteristics
 
 An ES is a software that behaves as some expert in a, usually restrict, application domain. This kind of system should be able to solve problems that requires specific knowledge of a specific domain.
 
@@ -29,22 +29,22 @@ Expert systems have a very broad application, such as:
 - (Agriculture) Diagnostic:
   - Expert system to identify diseases, plagues and physiological disturbs on grapevine crops.
 
-### Pros of Expert Systems:
+### Pros of Expert Systems
 
 - Present the ability of explaining inference process.
 - Present uniform structure. Each rule is an independent piece of the available knowledge.
 - By separating it's knowledge from its processing, it is possible that the same project environment could be applied on different applications.
 
-### Cons of Expert Systems:
+### Cons of Expert Systems
 
 - Work mainly with only symbolic reasoning.
 - Aspects as ambiguities and conflicting rules can result on wrong results.
 
-## Expert Systems Architecture:
+## Expert Systems Architecture
 
 ![Expert Systems Architecture](/img/posts_img/es_architecture.png)
 
-#### Knowledge base:
+#### Knowledge base
 
 The knowledge base is where the expert systems store sets of knowledge representation. It formally represents the knowledge of an specific specialty field. It represents the knowledge with pairs of condition-action (if-then).
 
@@ -64,18 +64,18 @@ The knowledge base is where the expert systems store sets of knowledge represent
   - __If__ animal_has_legs(x) and animal_has_beak(x), __then__ animal is bird(x).
   - __If__ temperature_over_37_degrees(x), __then__ has_fever(x).
 
-##### Rules sintax:
+##### Rules sintax
 
 - __and__: all conditions must be met for the consequents execution.
 - __or__: only one of the conditions met is enough for the consequents execution.
 - __not__: denial of predicate.
 - __then__: establishes the consequence of the rule to be applied.
 
-#### Working Memory:
+#### Working Memory
 
 Working memory is where facts are stored. It represents the data that are presented to the system by the beginning and during the inference.
 
-#### Inference Engine:
+#### Inference Engine
 
 The Inference Engine applies problem resolution procedures, deciding how and in which order the rules will be applied and facts will be used.
 

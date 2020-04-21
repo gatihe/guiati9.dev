@@ -6,7 +6,7 @@ categories: [artificial intelligence]
 comments: true
 ---
 
-## Definition:
+## Definition
 
 >A **agent** is any entity that is capable of perceiving its environment through sensors, execute data and knowledge processing tasks and acts on it through effectors - Russel & Norvig, 2004.
 
@@ -41,7 +41,7 @@ def agent(perception):
 ```
 
 
-## Applications of Rational Agents:
+## Applications of Rational Agents
 
 |Agent type|Performance measurement|Environment|Sensors|Effectors|
 |-----|-----|-----|-----|-----|
@@ -50,29 +50,29 @@ def agent(perception):
 |Piece selection robot|Percentage of pieces inside correct trays|Running machines with pieces, trays|Camera, articulated angular sensors|Articulated arm and hand|
 
 
-## Types of Rational Agents:
+## Types of Rational Agents
 
-#### Simple Reactive Agent:
+#### Simple Reactive Agent
 
 The simple reactive agent choose its actions according to its current perception, completely ignoring the past perceptions (perception history). It is the simplest kind of agent once it has very limited intelligence.
 
-#### Reactive Agent with Internal State:
+#### Reactive Agent with Internal State
 
 This kind of agent is able to store its perception history, environment representations, interaction history and the earlier actions history, which makes it possible to use information beyond the current perception.
 
-#### Goal-based Agent:
+#### Goal-based Agent
 
 Goal-based agents have, as their most important characteristic, the need to be set to accomplish a goal. So, it is capable of storing information just like reactive agents with internal state, but the actions have as a parameter reaching an specific goal and should only stop when the goal is accomplished. It works until an previously set condition is reached.
 
-#### Utility-based Agent (_optimizer_):
+#### Utility-based Agent (_optimizer_)
 
 This type of agent works based on a sense of utility. It also has goals and the ability to store and process information, but its actions are affected on the idea choosing, from a set of predicted possible futures, the best one according to its goal and also prioritize goals (in case there is more than one).
 
-#### Learning Agent:
+#### Learning Agent
 
 Learning agents are capable of acquire knowledge while facing new contexts (combinations of environment conditions and perceptions). In order to act, a learning agent will perceive the environment with sensors, compare the current environment and learn from its differences and similarities and, only then, act.
 
-## Problem-Solving Rational Agents:
+## Problem-Solving Rational Agents
 
 A rational agent should be able to decide _what to do_ through picking a logic sequence of actions that leads it to problem's _solution_.
 
@@ -90,7 +90,7 @@ When applying the problem solving context on rational agents, it is possible to 
 
 . We talking about rational agents, the term _search for solution_ can be defined as the selection of a sequence of actions made by rational agents take them to a certain solution (path from initial state to the goal state).
 
-### Problem-solving steps:
+### Problem-solving steps
 
 1. Identify the problem;
 2. Represent the problem with rational agent components;

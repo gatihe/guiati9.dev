@@ -8,7 +8,7 @@ comments: true
 
 Approaching basic AI topics, such as Turing Tests and the Chinese Room Argument.
 
-## Definitions:
+## Definitions
 
 Artificial Intelligence is an area of Computer Science that studies systems that simulate the human ability to reason, perceive, make decisions and solve problems. In other words, the ability to be intelligent. There are some formal definitions for AI such as:
 
@@ -24,7 +24,7 @@ As we can see, AI can have multiple definitions and it may depend on which way i
 
 > Multidisciplinary science that applies computing techniques that simulate intelligent behavior on specific activities.
 
-## AI Paradigms:
+## AI Paradigms
 
 Since there is no established unifying theory or paradigm that guides AI research and development due to different points of view of researchers, there are some paradigms that are more common and usual.
 
@@ -34,7 +34,7 @@ Since there is no established unifying theory or paradigm that guides AI researc
 
 It is not unusual to see more than one AI paradigm being applied to solve one single problem. The technique of mixing paradigms is called __Soft Computing__. The most frequent resources combined to solve problems are neural nets, fuzzy logic, bio-inspired computing and other intelligent algorithms.
 
-## Applications:
+## Applications
 
 AI techniques can be used for multiple purposes, some of the most known of them are:
 
@@ -42,7 +42,7 @@ AI techniques can be used for multiple purposes, some of the most known of them 
 * Web Searches: - How to locate and identify relevant information according to users searches?
 * Gaming: - How to design appropriate characters behaviors? How to allow an interesting interaction with the player?
 
-## Turing Test:
+## Turing Test
 
 During World War II, the Germans developed and used a machine called Enigma to encrypt military instructions. The cryptography of this machine was earlier considered unbreakable.
 Later, Polish mathematicians were able to first break the cryptography of Enigma's in a very particular operation mode. Alan Turing's ideas made it possible to generalize this method in a way that any encrypted message from Enigma could be decrypted.
@@ -64,7 +64,7 @@ In order to pass the Turing Test, the software would have to present the followi
 
 \*The Turing Test avoids physical interaction so it can focus on it's intelligence. The "Total Turing Test" includes video signal to test the software's perception and also allow objects manipulation (robotics).
 
-#### Strong AI x Weak AI:
+#### Strong AI x Weak AI
 
 This test says that if a computer software could execute tasks in a way that an expert couldn't distinguish it's performance from an human's performance, then the software would have the same capability to learn as a human has.
 
