@@ -6,9 +6,6 @@ categories: [artificial intelligence]
 comments: true
 ---
 
-
-# Rational Agents
-
 ## Definition:
 
 >A **agent** is any entity that is capable of perceiving its environment through sensors, execute data and knowledge processing tasks and acts on it through effectors - Russel & Norvig, 2004.
@@ -71,6 +68,11 @@ Goal-based agents have, as their most important characteristic, the need to be s
 
 This type of agent works based on a sense of utility. It also has goals and the ability to store and process information, but its actions are affected on the idea choosing, from a set of predicted possible futures, the best one according to its goal and also prioritize goals (in case there is more than one).
 
-#### Learning Agent
+#### Learning Agent:
 
 Learning agents are capable of acquire knowledge while facing new contexts (combinations of environment conditions and perceptions). In order to act, a learning agent will perceive the environment with sensors, compare the current environment and learn from its differences and similarities and, only then, act.
+
+## Problem Solving With Rational Agents
+
+
+![Romanian Map Represented as a Graph](/img/posts_img/romanian_map.jpg)
