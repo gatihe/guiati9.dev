@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Expert Systems and Inference Methods"
-excerpt: "What are Expert Systems and how do they work."
+title: "Rational and Search Agents"
+excerpt: "Approaching basic AI topics, such as Turing Tests and the Chinese Room Argument."
 categories: [artificial intelligence]
 comments: true
 ---
 
 
-
+# Rational Agents
 ## Definition:
 
 We call a *human expert* someone with the knowledge to solve high difficulty problems in a specific knowledge field. An __Expert System__ is a computer software that represents and simulates the knowledge of a specialty field in order to solve problems and provide recommendations.
