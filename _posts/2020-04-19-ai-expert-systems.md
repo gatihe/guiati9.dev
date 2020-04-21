@@ -42,7 +42,16 @@ The knowledge base is where the expert systems store sets of knowledge represent
   |Condition (or premise)|action (result or conclusion)|
   |Light is green|go foward|
 
+  The knowledge stored in the knowledge base is represented through __facts__ (incontestable knowledge) and __rules__ (conditional facts).
 
+- Facts:
+  - Men are mammal.
+  - Whales are mammals.
+  - Men are mortal.
+
+- Rules:
+  - __If__ animal_has_legs(x) and animal_has_beak(x), __then__ animal is bird(x).
+  - __If__ temperature_over_37_degrees(x), then has_fever(x).
 
 ## Production Rule Systems:
 
