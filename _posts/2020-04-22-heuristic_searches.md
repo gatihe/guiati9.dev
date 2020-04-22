@@ -28,10 +28,27 @@ A problem may present an exact solution, but the computational cost can derail t
 
 Good heuristics functions are hard to be implemented because its hard to predict with precision the value of a specific solution. Also, in state space searches it isn't always easy, or even possible, to stablish a mathematical value to a change of state.
 
+There are two ways of incorporate heuristic knowledge to a search method:
+- Altering the rules: The rules set for a system may not limit itself to the possible actions, but also add a set of "reasonable actions" specified by the author of the rules.
+- Evaluation functions: A evaluation function should provide for a specific node on the search process the best possible estimate of this node being in a desired path to the solution. This estimate should be quantifiable.
+
 ## Evaluation Function
+
+It is important to state that evaluation functions are not the same thing as heuristic functions. The __evaluation function (f(n))__ measures the cost of a specific node, while the __heuristic function (h(n))__ measures the estimated cost of the cheapest path from the current node to goal node.
+
+An evaluation function is represented by:
+
+- f(n) = g(n) + h(n)
+  - g(n) = accumulated cost of state changes up to the current node;
+  - h(n) = estimated cost of the current node until the goal state.
+
 
 ## Greedy Algorithms
 
+Greedy algorithm is a term used to define a search algorithm that always tries to move closer to the goal state in every step of the solution. It is possible for the algorithm to tell if the successor node will bring it closer or farther from the solution.
+
 ### Best-first Search Algorithm
+
+
 
 ### A* Search Algorithm
