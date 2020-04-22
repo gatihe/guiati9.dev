@@ -56,7 +56,7 @@ Check this example:
 
 When talking about blind searches, changes of state will always present cost 1 to all changes. That means that the change of states costs presents the same value for all adjacents of the current node.
 
-![Romanian Map Represented as a Graph](/img/posts_img/state_change_cost.jpg)
+![Cost of State Changes](/img/posts_img/state_change_cost.jpg)
 
 ### Breadth-first pros
 
