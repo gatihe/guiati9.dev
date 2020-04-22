@@ -53,6 +53,33 @@ This algorithm is based on the estimation of proximity from the goal state. It _
 
 It is recommended to use the best-first algorithm when there is the possibility do estimate the distances to the goal.
 
+##### Example
+
+![Romenian Routes](/img/posts_img/romanian_map.jpg)
+
+|Straight-line distance to Bucharest|
+|City|Distance|
+|-----|-----|
+|Arad|366|
+|Bucharest|0|
+|Craiova|160|
+|Dobreta|242|
+|Eforie|161|
+|Fagaras|176|
+|Giurgiu|77|
+|Hirsova|151|
+|Iasi|226|
+|Lugoj|244|
+|Mehadia|241|
+|Neamt|234|
+|Oradea|380|
+|Pitesti|100|
+|Rimnicu Vilce|193|
+|Sibiu|253|
+|Timisoara|329|
+|Urziceni|80|
+|Vaslui|199|
+|Zerind|374|
 
 
 
