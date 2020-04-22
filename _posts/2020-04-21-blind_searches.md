@@ -86,4 +86,12 @@ Depth first search algorithms still follows blind searches the default method fo
 Backtracks are also accounted on the cost of state changes. If a dead-end is reached, the algorithm will return to the last previous node with available adjacent nodes and the way back into already visited nodes __must be accounted__, like the below example:
 
 ![Cost of State Changes on Depth First Search](/img/posts_img/cost_backtracking.png)
+
 ### Depth First pros
+
+- Depth First Algorithm requires less memory, once only the current path visited nodes are stored.
+- It can happen to find the solution without exploring the whole search space.
+
+### Example
+
+![Romanian Map Represented as a Graph](/img/posts_img/romanian_map.jpg)
