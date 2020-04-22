@@ -42,6 +42,10 @@ f(x) =  { 1 if x E A}
 
         { 0 if x ˜E A}
 
+Graphically, f(x) is given by:
+
+![f(x) Graph](/img/posts_img/fxgraph.png)
+
 ## Fuzzy Set Theory
 
 ### Membership Functions
