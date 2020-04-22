@@ -49,9 +49,11 @@ Greedy algorithm is a term used to define a search algorithm that always tries t
 
 ### Best-first Search Algorithm
 
-This algorithm is based on the estimation of proximity from the goal state. It analyzes the current node adjacent nodes and chooses the closest to the goal state.
+This algorithm is based on the estimation of proximity from the goal state. It __analyzes the current node adjacent nodes and chooses the closest to the goal state__ according to the adjacent nodes evaluation functions.
 
 It is recommended to use the best-first algorithm when there is the possibility do estimate the distances to the goal.
+
+
 
 
 ### A* Search Algorithm
