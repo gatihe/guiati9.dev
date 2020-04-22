@@ -69,11 +69,11 @@ A: X -> [0,1] or A = {x E X \| A(x) = 1}
 
 __Membership function__: f<sub>A</sub>(x): X -> [0,1]
 
-This way, the membership function associates, to each element x that belongs to X, a real number to f<sub>A</sub>(x) from the range [0,1]. The result represents element's x membership degree to set A, that is, how much possible is it for x element to belong to the A set.
+This way, the membership function designates, to each element x that belongs to X, a real number to f<sub>A</sub>(x) from the range [0,1]. The result represents element's x membership degree to set A, that is, how much possible is it for x element to belong to the A set.
 
 
 
-### Membership Functions
+### Types of Membership Functions
 
 ### Linguistic Variables
 
