@@ -39,6 +39,7 @@ Formal representations of the Set Theory:
 Being A a set and f its characteristic function:
 
 f(x) =  { 1 if x E A}
+
         { 0 if x ˜E A}
 
 ## Fuzzy Set Theory
