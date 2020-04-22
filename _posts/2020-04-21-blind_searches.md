@@ -48,6 +48,12 @@ On BFS, all adjacent nodes from the initial node are expanded and so on. Here is
 5. Visit all adjacent states from the initial state and add them to the tree until there is no more adjacent states from initial state (always filling up node information and __checking__ if current node is equivalent to goal state).
 6. Visit all adjacent nodes to the first state adjacent to the initial state and repeat the process until you reach the goal state or until the states end.
 
+Check this example:
+
+![Romanian Map Represented as a Graph](/img/posts_img/romanian_map.jpg)
+
+### Calculating the Cost of State Changes with BFS
+
 ### Backtracking
 
 ### Breadth-first pros
