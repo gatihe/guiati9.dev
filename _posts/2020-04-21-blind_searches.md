@@ -58,7 +58,11 @@ When talking about blind searches, changes of state will always present cost 1 t
 
 ![Romanian Map Represented as a Graph](/img/posts_img/romanian_map.jpg)
 
-### Breadth-first pros
+### BFS pros
+
+- BFS will never reach a dead-end.
+- If there is a solution, BFS will, certainly, find it.
+- If there is more than one solution, a minimal solution (the one that requires the fewest steps) will be found. This characteristic is guaranteed by the fact that the longest paths are only explored after the shortest ones have been examined.
 
 ## Depth First Search Algorithm
 
