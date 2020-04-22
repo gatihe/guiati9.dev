@@ -39,7 +39,7 @@ Some characteristics of blind searches are:
 
 ## Breadth-first Search (BFS) Algorithm
 
-On BFS, all adjacent nodes from the initial node are expanded and so on. Here is the algorithm to create a BFS tree:
+On BFS, all adjacent nodes from the initial node are expanded and so on. Here is the **algorithm** to create a BFS tree:
 
 1. Identify initial state;
 2. Set initial state as the search tree root;
@@ -54,10 +54,14 @@ Check this example:
 
 ### Calculating the Cost of State Changes with BFS
 
-### Backtracking
+When talking about blind searches, changes of state will always present cost 1 to all changes. That means that the change of states costs presents the same value for all adjacents of the current node.
 
 ### Breadth-first pros
 
 ## Depth First Search Algorithm
+
+### Backtracking
+
+### Calculating the Cost of State Changes with Depth First Algorithm
 
 ### Depth First pros
