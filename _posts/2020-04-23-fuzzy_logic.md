@@ -148,4 +148,4 @@ Being A and B two fuzzy sets:
 
 Being A and B two fuzzy sets:
 
-The membership function that represents the intersection between two fuzzy sets is given by f<sub>A∩B</sub>(x) = min {f<sub>A</sub>(x), f<sub>B</sub>(x)} or f<sub>A∩B</sub>(x) = f<sub>A∩B</sub>(x) = f<sub>A</sub>(x) ∩ f<sub>b</sub>(x)
+The membership function that represents the intersection between two fuzzy sets is given by __f<sub>A∩B</sub>(x) = min {f<sub>A</sub>(x), f<sub>B</sub>(x)}__ or __f<sub>A∩B</sub>(x) = f<sub>A∩B</sub>(x) = f<sub>A</sub>(x) ∩ f<sub>b</sub>(x)__.
