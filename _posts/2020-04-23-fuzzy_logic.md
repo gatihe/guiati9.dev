@@ -40,7 +40,14 @@ Being A a set and f its characteristic function:
 ```
 f(x) =  { 1 if x E A}
         { 0 if x ˜E A}
-``` 
+```
+A is also formally represented as:
+
+A = {x E X | f(x) = 1}
+
+And the characteristic function A(x) (or f(x)) is represented by?
+
+f(x): X -> {0,1}
 
 Graphically, f(x) is given by:
 
