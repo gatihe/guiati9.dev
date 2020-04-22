@@ -45,10 +45,13 @@ An evaluation function is represented by:
 
 ## Greedy Algorithms
 
-Greedy algorithm is a term used to define a search algorithm that always tries to move closer to the goal state in every step of the solution. It is possible for the algorithm to tell if the successor node will bring it closer or farther from the solution.
+Greedy algorithm is a term used to define a search algorithm that always tries to move closer to the goal state in every step of the solution. It is possible for the algorithm to tell if the successor node will bring it closer or farther from the solution by using evaluation functions.
 
 ### Best-first Search Algorithm
 
+This algorithm is based on the estimation of proximity from the goal state. It analyzes the current node adjacent nodes and chooses the closest to the goal state.
+
+It is recommended to use the best-first algorithm when there is the possibility do estimate the distances to the goal.
 
 
 ### A* Search Algorithm
