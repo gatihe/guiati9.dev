@@ -34,6 +34,12 @@ Formal representations of the Set Theory:
 
 - Membership: An element _x_ is an element of set A: x $\in$ A.
 
+- Characteristic function: Establishes the membership relationship between an element _x_ and a set A.
+
+Being A a set and f its characteristic function:
+
+f = $$\underbrace{X}_{\substack{\textrm{Text1 for X}\\  \textrm{Text2 for X}}}$$
+
 ## Fuzzy Set Theory
 
 ### Membership Functions
