@@ -32,13 +32,14 @@ Formal representations of the Set Theory:
 
 - Set: set of objects that shares some common specific characteristic. According to Classical Set Theory a object can only present two different relationship with a set, that is, it may or may not be an element of the set.
 
-- Membership: An element _x_ is an element of set A: x $$\in$$ A.
+- Membership: An element _x_ is an element of set A: x E A.
 
 - Characteristic function: Establishes the membership relationship between an element _x_ and a set A.
 
 Being A a set and f its characteristic function:
 
-f = $$\underbrace{X}_{\substack{\textrm{Text1 for X}\\  \textrm{Text2 for X}}}$$
+f(x) =  { 1 if x E A}
+        { 0 if x ˜E A}
 
 ## Fuzzy Set Theory
 
