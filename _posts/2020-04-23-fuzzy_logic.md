@@ -43,7 +43,7 @@ f(x) =  { 1 if x E A}
 ```
 A is also formally represented as:
 
-A = {x E X | f(x) = 1}
+A = {x E X \| f(x) = 1}
 
 And the characteristic function A(x) (or f(x)) is represented by?
 
@@ -52,6 +52,8 @@ f(x): X -> {0,1}
 Graphically, f(x) is given by:
 
 ![f(x) Graph](/img/posts_img/fxgraph.png)
+
+
 
 ## Fuzzy Set Theory
 
