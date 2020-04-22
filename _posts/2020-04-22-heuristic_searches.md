@@ -55,7 +55,22 @@ In this case, the node evaluation function is equal to its heuristic function: f
 
 It is recommended to use the best-first algorithm when there is the possibility do estimate the distances to the goal.
 
-##### Example
+### A* Search Algorithm
+
+The A* Algorithm evaluates nodes combining the cost to reach each node (g(n)) and the estimate cost to go from that node to the goal node (h(n)).
+
+- f(n) = g(n) + h(n)
+  - g(n) = accumulated cost of state changes up to the current node;
+  - h(n) = estimated cost of the current node until the goal state.
+
+In order to find the cheapest solution, the algorithm select the nodes with the lowest value of f(n).
+
+
+
+
+### Examples
+
+
 
 - Problem: Go from Arad to Bucharest
 - Adopted heuristic: straight line distance -> F(n) = H(n) = dist<sub>n-objM/sub>.
@@ -87,5 +102,6 @@ It is recommended to use the best-first algorithm when there is the possibility 
 |Zerind|374|
 
 
+#### Using best-first
 
-### A* Search Algorithm
+#### Using A*
