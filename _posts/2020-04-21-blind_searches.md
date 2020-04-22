@@ -66,18 +66,28 @@ When talking about blind searches, changes of state will always present cost 1 t
 
 ## Depth First Search Algorithm
 
-On Depth First Search Algorithm, the nodes are explored with priority for the successors of the last node added to the tree. It begins e continues on a same path until a dead-end is found. This search method behaves according to the following algorithm:
 
-1. Initialize tree by the initial state;
-2. Find first adjacent state from current state;
-3. **If** there is no adjacent state **then**:
-  - return failure;
-  - restart depth first search considering previous state as initial state;
-4. **Else**:
-  - _If_ adjacent is equal to goal state _then_ add state to the tree, exit and return the solution.
-  - _Else_: Add state to the tree.
-5. Make visited adjacent state the current state.
-6. Repeat algorithm.
+<div class="row">
+  <div class="col-md-6" markdown="1">
+  On Depth First Search Algorithm, the nodes are explored with priority for the successors of the last node added to the tree. It begins e continues on a same path until a dead-end is found. This search method behaves according to the following algorithm:
+
+  1. Initialize tree by the initial state;
+  2. Find first adjacent state from current state;
+  3. **If** there is no adjacent state **then**:
+    - return failure;
+    - restart depth first search considering previous state as initial state;
+  4. **Else**:
+    - _If_: adjacent is equal to goal state _then_: add state to the tree, exit and return the solution.
+    - _Else_: Add state to the tree.
+  5. Make visited adjacent state the current state.
+  6. Repeat algorithm.
+  </div>
+  <div class="col-md-6" markdown="1">
+
+  </div>
+</div>
+
+
 
 ### Backtracking
 
