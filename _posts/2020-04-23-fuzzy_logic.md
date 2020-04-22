@@ -45,7 +45,7 @@ A is also formally represented as:
 
 A = {x E X \| f(x) = 1}
 
-And the characteristic function A(x) (or f(x)) is represented by?
+And the characteristic function A(x) (or f(x)) is represented by:
 
 f(x): X -> {0,1}
 
@@ -53,9 +53,23 @@ Graphically, f(x) is given by:
 
 ![f(x) Graph](/img/posts_img/fxgraph.png)
 
-
-
 ## Fuzzy Set Theory
+
+By the previous classical set representations, it is possible to identify a sudden change of values (0 to 1) with no transition values (values between 0 and 1). This behavior makes it harder to capture real life situations. Fuzzy logic proposes a different approach to mitigate this limitation.
+
+Fuzzy sets allow its elements to interact with them in multiple ways (more ways that 'belongs' and 'does not belong').
+
+The membership function that maps the elements of an X domain to the range [0.1] can be represented by:
+
+A: Fuzzy Set
+
+X: Domain
+
+A: X -> [0,1] or A = {x E X \| A(x) = 1}
+
+__Membership function__: f<sub>A</sub>(x): X -> [0,1]
+
+
 
 ### Membership Functions
 
