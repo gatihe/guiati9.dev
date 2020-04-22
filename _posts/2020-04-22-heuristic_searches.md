@@ -55,6 +55,8 @@ In this case, the node evaluation function is equal to its heuristic function: f
 
 It is recommended to use the best-first algorithm when there is the possibility do estimate the distances to the goal.
 
+The Best-First algorithm usually provides __non optimal solution__. Even providing good results, there might be better ones among the possible solutions. Also, it is considered a __non complete solution__ once it can enter a loop state if it doesn't detect repeated nodes, meaning that it may not even find a solution.
+
 ### A* Search Algorithm
 
 The A* Algorithm evaluates nodes combining the cost to reach each node (g(n)) and the estimate cost to go from that node to the goal node (h(n)).
