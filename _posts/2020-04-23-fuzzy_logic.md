@@ -59,7 +59,7 @@ By the previous classical set representations, it is possible to identify a sudd
 
 Fuzzy sets allow its elements to interact with them in multiple ways (more ways that 'belongs' and 'does not belong').
 
-The membership function that maps the elements of an X domain to the range [0.1] can be represented by:
+A fuzzy set A defined on a domain X is defined by a membership function f<sub>A</sub> which maps elements of X for the range [0,1].
 
 A: Fuzzy Set
 
