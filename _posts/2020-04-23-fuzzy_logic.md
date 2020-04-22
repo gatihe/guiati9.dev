@@ -109,6 +109,35 @@ f(x) = {0 if x <- a}
 
 ### Linguistic Variables
 
+A linguistic variable is a variable whose default values are words rather than numbers. It is represented by the elements:
+- X: variable name
+- T(X): Set of values assumed by variable X.
 
+Every linguistic values form a set of terms.
+
+Example:
+
+Being X = age
+T(age) = {Young, very young, mature, old, sort of old, child}
+
+or
+
+X:temperature
+T(temperature) = {high, medium, low}
+
+Each one of T(x) values represents a __fuzzy set__ with a membership function associated to it.
 
 ### Fuzzification
+
+Fuzzification is the process of creating fuzzy sets. It consists on:
+
+1. Find a concept to be fuzzified.
+2. Convert concept into a linguistic variable.
+3. Designate reasonable linguistic variables to this variable.
+4. Each one of the values is a fuzzy set defined by its own membership function.
+
+##### Logical operations with fuzzy sets
+
+Being A and B two fuzzy sets:
+
+- The membership function that represents the intersection between two fuzzy sets is given by f<sub>A-INTERSECTION-B</sub>(x) = min {f<sub>A</sub>(x), f<sub>B</sub>(x)}
