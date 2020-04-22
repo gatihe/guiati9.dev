@@ -26,9 +26,13 @@ It is possible to tell if a concept is fuzzy or not if it should not be defined 
 
 The Fuzzy Logic was first proposed by Zadeh, who demonstrates this concept through the Fuzzy Set Theory.
 
-
-
 ## Classical Set Theory
+
+Formal representations of the Set Theory:
+
+- Set: set of objects that shares some common specific characteristic. According to Classical Set Theory a object can only present two different relationship with a set, that is, it may or may not be an element of the set.
+
+- Membership: An element _x_ is an element of set A: x $\in$ A.
 
 ## Fuzzy Set Theory
 
