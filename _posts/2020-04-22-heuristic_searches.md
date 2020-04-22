@@ -24,6 +24,8 @@ The extra information about the problem being solved by the search algorithm is 
 
 In order to systematically solve complex problems, it usually necessary to build methods that no longer guarantee the optimal solution but that almost always find a very good solution. The reason is that the heuristics usually points to interesting directions but can not provide points of interest for certain contexts.
 
+A problem may present an exact solution, but the computational cost can derail the process. For AI problems the optimal solution is rarely required and a __good approximation__ will normally be accepted.
+
 Good heuristics functions are hard to be implemented because its hard to predict with precision the value of a specific solution. Also, in state space searches it isn't always easy, or even possible, to stablish a mathematical value to a change of state.
 
 ## Evaluation Function
