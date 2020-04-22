@@ -138,5 +138,14 @@ Fuzzification is the process of creating fuzzy sets. It consists on:
 
 ##### Logical operations with fuzzy sets
 
+- Union:
+
 Being A and B two fuzzy sets:
-- The membership function that represents the intersection between two fuzzy sets is given by f<sub>A∩B</sub>(x) = min {f<sub>A</sub>(x), f<sub>B</sub>(x)} or f<sub>A∩B</sub>(x) = f<sub>A∩B</sub>(x) = f<sub>A</sub>(x) ∩ f<sub>b</sub>(x)
+
+
+
+- Intersection:
+
+Being A and B two fuzzy sets:
+
+The membership function that represents the intersection between two fuzzy sets is given by f<sub>A∩B</sub>(x) = min {f<sub>A</sub>(x), f<sub>B</sub>(x)} or f<sub>A∩B</sub>(x) = f<sub>A∩B</sub>(x) = f<sub>A</sub>(x) ∩ f<sub>b</sub>(x)
