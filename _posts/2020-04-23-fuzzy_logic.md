@@ -37,10 +37,10 @@ Formal representations of the Set Theory:
 - Characteristic function: Establishes the membership relationship between an element _x_ and a set A.
 
 Being A a set and f its characteristic function:
-
+```
 f(x) =  { 1 if x E A}
-
         { 0 if x ˜E A}
+``` 
 
 Graphically, f(x) is given by:
 
