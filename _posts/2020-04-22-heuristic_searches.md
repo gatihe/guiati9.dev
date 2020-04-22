@@ -51,9 +51,14 @@ Greedy algorithm is a term used to define a search algorithm that always tries t
 
 This algorithm is based on the estimation of proximity from the goal state. It __analyzes the current node adjacent nodes and chooses the closest to the goal state__ according to the adjacent nodes evaluation functions.
 
+In this case, the node evaluation function is equal to its heuristic function: f(n) = h(n)
+
 It is recommended to use the best-first algorithm when there is the possibility do estimate the distances to the goal.
 
 ##### Example
+
+- Problem: Go from Arad to Bucharest
+- Adopted heuristic: straight line distance -> F(n) = H(n) = dist<sub>n-objM/sub>.
 
 ![Romenian Routes](/img/posts_img/romanian_map.jpg)
 
