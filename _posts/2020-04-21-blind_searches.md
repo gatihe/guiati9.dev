@@ -81,5 +81,9 @@ On Depth First Search Algorithm, the nodes are explored with priority for the su
 
 ### Backtracking and State Changes Cost Calculation
 
+Depth first search algorithms still follows blind searches the default method for calculating the cost of state changes. That means changes of state will always present cost 1 to all changes. But if a dead-end is found it will use __backtracking__ to readjust its route.
+
+Backtracks are also accounted on the cost of state changes. If a dead-end is reached, the algorithm will return to the last previous node with available adjacent nodes and the way back into already visited nodes __must be accounted__, like the below example:
+
 ![Cost of State Changes on Depth First Search](/img/posts_img/cost_backtracking.png)
 ### Depth First pros
