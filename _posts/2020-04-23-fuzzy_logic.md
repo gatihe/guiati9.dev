@@ -75,6 +75,40 @@ This way, the membership function designates, to each element x that belongs to 
 
 ### Types of Membership Functions
 
+```
+f(x) : X -> [0,1],
+- f(x) = 0,
+- 0 < f(x) < 1
+f(x) = 1
+```
+
+##### Triangular Membership Function
+
+```
+f(x) = {0 if x<=a}
+       {(x-a)/(m-a) if x E [a,m]}
+       {(b-x)/(b-m) if x E[m,b]}
+       {0 if x >= b}
+
+```
+![Triangular Graph](/img/posts_img/triangular_function.png)
+
+##### Trapezoidal Membership Function
+
+```
+f(x) = {0 if x <- a}
+       {(x-a)/(m-a) if x E [a,m]}
+       {1 if x E [m,n]}
+       {(b-x)/(b-n) if E [n,b]}
+       {0 if x >= b}
+```
+
+![Trapezoidal Graph](/img/posts_img/trapezoidal_function.png)
+
+##### Example:
+
 ### Linguistic Variables
+
+
 
 ### Fuzzification
