@@ -142,7 +142,7 @@ Fuzzification is the process of creating fuzzy sets. It consists on:
 
 Being A and B two fuzzy sets:
 
-
+The membership function that represents the union between two fuzzy sets is given by __f<sub>AUB</sub>(x) = max {f<sub>A</sub>(x),f<sub>B</sub>(x)__ or __f<sub>AUB</sub>(x) = f<sub>A</sub>(x) U f<sub>B</sub>(x)__.
 
 - Intersection:
 
