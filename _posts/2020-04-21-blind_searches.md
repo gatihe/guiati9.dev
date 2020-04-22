@@ -79,8 +79,7 @@ On Depth First Search Algorithm, the nodes are explored with priority for the su
 5. Make visited adjacent state the current state.
 6. Repeat algorithm.
 
-### Backtracking
+### Backtracking and State Changes Cost Calculation
 
-### Calculating the Cost of State Changes with Depth First Algorithm
-
+![Cost of State Changes on Depth First Search](/img/posts_img/depth_first_cost_example.png)
 ### Depth First pros
