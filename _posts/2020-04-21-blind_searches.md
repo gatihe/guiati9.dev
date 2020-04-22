@@ -81,5 +81,5 @@ On Depth First Search Algorithm, the nodes are explored with priority for the su
 
 ### Backtracking and State Changes Cost Calculation
 
-![Cost of State Changes on Depth First Search](/img/posts_img/depth_first_cost_example.png)
+![Cost of State Changes on Depth First Search](/img/posts_img/cost_backtracking.png)
 ### Depth First pros
