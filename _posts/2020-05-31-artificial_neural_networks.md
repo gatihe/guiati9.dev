@@ -1,24 +1,15 @@
 ---
 layout: post
 title: "Artificial Neural Networks"
-excerpt: "Quick introduction to the concept of heuristics and heuristics searches such as best-first and a-star search algorithms"
+excerpt: "Introduction to artificial neural networks"
 categories: [artificial intelligence]
 comments: true
 ---
 
 ## Motivation
 
-Although blind searches are very useful, these algorithms provides only a single way to expand nodes and search a solution for finding a way to the goal state. In many cases, applying these methods are impractical due to the high quantity of nodes to be expanded before finding a solution (the bigger the state space, the greater the complexity).
 
-When talking about search algorithms, solution is defined as a path from the initial state to the goal state. An __optimal solution__ is the one that presents the lower cost of all the existent solutions.
-
-Search algorithms can have its performance measured by:
-- Completeness: the ability to provide a solution if it exists.
-- Optimality: the ability to find an optimal solution.
-- Time Complexity: time spent to find a solution.
-- Space (Storage) Complexity: needed memory to find a solution.
-
-## Heuristics
+## How biological neurons works
 
 The extra information about the problem being solved by the search algorithm is called __heuristic__ and the search methods that use these information are called __heuristic search methods__.
 
@@ -32,7 +23,7 @@ There are two ways of incorporate heuristic knowledge to a search method:
 - Altering the rules: The rules set for a system may not limit itself to the possible actions, but also add a set of "reasonable actions" specified by the author of the rules.
 - Evaluation functions: A evaluation function should provide for a specific node on the search process the best possible estimate of this node being in a desired path to the solution. This estimate should be quantifiable.
 
-## Evaluation Function
+## Artificial Neural Networks
 
 It is important to state that evaluation functions are not the same thing as heuristic functions. The __evaluation function (f(n))__ measures the cost of a specific node, while the __heuristic function (h(n))__ measures the estimated cost of the cheapest path from the current node to goal node.
 
@@ -43,7 +34,7 @@ An evaluation function is represented by:
   - h(n) = estimated cost of the current node until the goal state.
 
 
-## Greedy Algorithms
+## When to use Artificial Neural Networks
 
 Greedy algorithm is a term used to define a search algorithm that always tries to move closer to the goal state in every step of the solution. It is possible for the algorithm to tell if the successor node will bring it closer or farther from the solution by using evaluation functions.
 
@@ -57,7 +48,7 @@ It is recommended to use the best-first algorithm when there is the possibility 
 
 The Best-First algorithm usually provides __non optimal solution__. Even providing good results, there might be better ones among the possible solutions. Also, it is considered a __non complete solution__ once it can enter a loop state if it doesn't detect repeated nodes, meaning that it may not even find a solution.
 
-### A* Search Algorithm
+## McCulloch-Pitts Neuron
 
 The A* Algorithm evaluates nodes combining the cost to reach each node (g(n)) and the estimate cost to go from that node to the goal node (h(n)).
 
@@ -89,40 +80,21 @@ A* Algorithm:
 
 
 
-### Examples
+## Perceptron
+
+### Weighs
+
+### Activation functions
 
 
+## ANN Architecture
 
-- Problem: Go from Arad to Bucharest
-- Adopted heuristic: straight line distance -> F(n) = H(n) = dist<sub>n-objM/sub>.
+## Single Layer ANNs
 
-![Romenian Routes](/img/posts_img/romanian_map.jpg)
+## Nonlinearly separable classifications
 
-|Straight-line distance to Bucharest|
-|City|Distance|
-|-----|-----|
-|Arad|366|
-|Bucharest|0|
-|Craiova|160|
-|Dobreta|242|
-|Eforie|161|
-|Fagaras|176|
-|Giurgiu|77|
-|Hirsova|151|
-|Iasi|226|
-|Lugoj|244|
-|Mehadia|241|
-|Neamt|234|
-|Oradea|380|
-|Pitesti|100|
-|Rimnicu Vilce|193|
-|Sibiu|253|
-|Timisoara|329|
-|Urziceni|80|
-|Vaslui|199|
-|Zerind|374|
+## Multilayer perceptron
 
+## How to build an ANN
 
-#### Using best-first
-
-#### Using A*
+## Classification evaluation metrics
