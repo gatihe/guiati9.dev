@@ -1,128 +1,151 @@
 ---
 layout: post
 title: "Fuzzy Logic and Production Rules"
-excerpt: "Quick introduction to the concept of heuristics and heuristics searches such as best-first and a-star search algorithms"
+excerpt: "Fuzzy set theory, membership functions, fuzzification and production rules"
 categories: [artificial intelligence]
 comments: true
 ---
 
-## Motivation
+## Introduction
 
-Although blind searches are very useful, these algorithms provides only a single way to expand nodes and search a solution for finding a way to the goal state. In many cases, applying these methods are impractical due to the high quantity of nodes to be expanded before finding a solution (the bigger the state space, the greater the complexity).
+While applying classical logic to solve problems it is possible to identify that it values bivalent analysis (the objects used are either true or false), that is, it presents low tolerance with limit values that end up being excluded. But the real life requires multivalent thinking in order to be better studied, it isn't 'all black and white'.
 
-When talking about search algorithms, solution is defined as a path from the initial state to the goal state. An __optimal solution__ is the one that presents the lower cost of all the existent solutions.
+Some examples that enforce the concept of multivalent approach are:
+- In judicial matters, a judge and the jury must consider the degree of guilt of an accused depending on the laws and evidence against the accused;
+- Classification of healthy patients;
+- Classification of objects as 'large';
+- Classification of people as 'tall'.
 
-Search algorithms can have its performance measured by:
-- Completeness: the ability to provide a solution if it exists.
-- Optimality: the ability to find an optimal solution.
-- Time Complexity: time spent to find a solution.
-- Space (Storage) Complexity: needed memory to find a solution.
+*Fuzzy logic* aims to capture different degrees of truth that exists in real life. Some formal definitions are:
 
-## Heuristics
+> Fuzzy logic is capable of combining the inaccuracy associated with natural events and the computational power of machines to produce systems with smart, robust and flexible results. - COX, Earl. Fuzzy logic for business and industry - 1995
 
-The extra information about the problem being solved by the search algorithm is called __heuristic__ and the search methods that use these information are called __heuristic search methods__.
+>Fuzzy logic allows the development of systems that represents human decisions, to which the conventional (boolean) math and logic is proven to be insufficient or inefficient. - VON ALTROCK, Constantin. Fuzzy logic and neuroFuzzy applications in busines and finance - 1996
 
-In order to systematically solve complex problems, it usually necessary to build methods that no longer guarantee the optimal solution but that almost always find a very good solution. The reason is that the heuristics usually points to interesting directions but can not provide points of interest for certain contexts.
+It is possible to tell if a concept is fuzzy or not if it should not be defined in an extreme way. Concepts like 'healthy', 'depressed' and 'tall' are good examples, once there are not only 'tall' and 'not tall' people in the world. There are degrees of certainty (or doubt) to which people can be classified as 'tall' or 'not tall'.
 
-A problem may present an exact solution, but the computational cost can derail the process. For AI problems the optimal solution is rarely required and a __good approximation__ will normally be accepted.
+The Fuzzy Logic was first proposed by Zadeh, who demonstrates this concept through the Fuzzy Set Theory.
 
-Good heuristics functions are hard to be implemented because its hard to predict with precision the value of a specific solution. Also, in state space searches it isn't always easy, or even possible, to stablish a mathematical value to a change of state.
+## Classical Set Theory
 
-There are two ways of incorporate heuristic knowledge to a search method:
-- Altering the rules: The rules set for a system may not limit itself to the possible actions, but also add a set of "reasonable actions" specified by the author of the rules.
-- Evaluation functions: A evaluation function should provide for a specific node on the search process the best possible estimate of this node being in a desired path to the solution. This estimate should be quantifiable.
+Formal representations of the Set Theory:
 
-## Evaluation Function
+- Set: set of objects that shares some common specific characteristic. According to Classical Set Theory a object can only present two different relationship with a set, that is, it may or may not be an element of the set.
 
-It is important to state that evaluation functions are not the same thing as heuristic functions. The __evaluation function (f(n))__ measures the cost of a specific node, while the __heuristic function (h(n))__ measures the estimated cost of the cheapest path from the current node to goal node.
+- Membership: An element _x_ is an element of set A: x E A.
 
-An evaluation function is represented by:
+- Characteristic function: Establishes the membership relationship between an element _x_ and a set A.
 
-- f(n) = g(n) + h(n)
-  - g(n) = accumulated cost of state changes up to the current node;
-  - h(n) = estimated cost of the current node until the goal state.
+Being A a set and f its characteristic function:
+```
+f(x) =  { 1 if x E A}
+        { 0 if x ˜E A}
+```
+A is also formally represented as:
 
+A = {x E X \| f(x) = 1}
 
-## Greedy Algorithms
+And the characteristic function A(x) (or f(x)) is represented by:
 
-Greedy algorithm is a term used to define a search algorithm that always tries to move closer to the goal state in every step of the solution. It is possible for the algorithm to tell if the successor node will bring it closer or farther from the solution by using evaluation functions.
+f(x): X -> {0,1}
 
-### Best-first Search Algorithm
+Graphically, f(x) is given by:
 
-This algorithm is based on the estimation of proximity from the goal state. It __analyzes the current node adjacent nodes and chooses the closest to the goal state__ according to the adjacent nodes evaluation functions.
+![f(x) Graph](/img/posts_img/fxgraph.png)
 
-In this case, the node evaluation function is equal to its heuristic function: f(n) = h(n)
+## Fuzzy Set Theory
 
-It is recommended to use the best-first algorithm when there is the possibility do estimate the distances to the goal.
+By the previous classical set representations, it is possible to identify a sudden change of values (0 to 1) with no transition values (values between 0 and 1). This behavior makes it harder to capture real life situations. Fuzzy logic proposes a different approach to mitigate this limitation.
 
-The Best-First algorithm usually provides __non optimal solution__. Even providing good results, there might be better ones among the possible solutions. Also, it is considered a __non complete solution__ once it can enter a loop state if it doesn't detect repeated nodes, meaning that it may not even find a solution.
+Fuzzy sets allow its elements to interact with them in multiple ways (more ways that 'belongs' and 'does not belong').
 
-### A* Search Algorithm
+A fuzzy set A defined on a domain X is defined by a membership function f<sub>A</sub> which maps elements of X for the range [0,1].
 
-The A* Algorithm evaluates nodes combining the cost to reach each node (g(n)) and the estimate cost to go from that node to the goal node (h(n)).
+A: Fuzzy Set
 
-- f(n) = g(n) + h(n)
-  - g(n) = accumulated cost of state changes up to the current node;
-  - h(n) = estimated cost of the current node until the goal state.
+X: Domain
 
-In order to find the cheapest solution, the algorithm select the nodes with the lowest value of f(n).
+A: X -> [0,1] or A = {x E X \| A(x) = 1}
 
-This algorithm works with two list of states: _Open_ and _Closed_:
+__Membership function__: f<sub>A</sub>(x): X -> [0,1]
 
-- The open list is a priority queue and it stores nodes that haven't been visited yet or that present some enhancement on total cost.
-- The closed list stores already visited states.
-
-A* Algorithm:
-
-1. Consider P as the initial state.
-2. Calculate _f_, _g_ and _h_ for P.
-3. Add P to _open_ list (By this point P is the only element on this list).
-4. Being M the best node from OPEN_LIST (lowest _f_):
-  - __If__ M is equal to goal state, __then__ finalize and return path.
-  - __If__ OPEN_LIST is empty, __then__ finalize and return error.
-5. To each C node connected to M (successors list):
-  - Calculate _f_, _g_ and _h_ for C.
-  - __If__ C is not in OPEN_LIST or CLOSED_LIST __then__ add C to OPEN_LIST.
-  - __If__ C is in OPEN_LIST or CLOSED_LIST and presents the lowest cost __then__  remove C from OPEN_LIST or CLOSED_LIST and add C to OPEN_LIST.
-6. Move M from OPEN_LIST to CLOSED_LIST and head back to step 4.
+This way, the membership function designates, to each element x that belongs to X, a real number to f<sub>A</sub>(x) from the range [0,1]. The result represents element's x membership degree to set A, that is, how much possible is it for x element to belong to the A set.
 
 
 
+### Types of Membership Functions
 
-### Examples
+```
+f(x) : X -> [0,1],
+- f(x) = 0,
+- 0 < f(x) < 1
+f(x) = 1
+```
 
+##### Triangular Membership Function
 
+```
+f(x) = {0 if x<=a}
+       {(x-a)/(m-a) if x E [a,m]}
+       {(b-x)/(b-m) if x E[m,b]}
+       {0 if x >= b}
 
-- Problem: Go from Arad to Bucharest
-- Adopted heuristic: straight line distance -> F(n) = H(n) = dist<sub>n-objM/sub>.
+```
+![Triangular Graph](/img/posts_img/triangular_function.png)
 
-![Romenian Routes](/img/posts_img/romanian_map.jpg)
+##### Trapezoidal Membership Function
 
-|Straight-line distance to Bucharest|
-|City|Distance|
-|-----|-----|
-|Arad|366|
-|Bucharest|0|
-|Craiova|160|
-|Dobreta|242|
-|Eforie|161|
-|Fagaras|176|
-|Giurgiu|77|
-|Hirsova|151|
-|Iasi|226|
-|Lugoj|244|
-|Mehadia|241|
-|Neamt|234|
-|Oradea|380|
-|Pitesti|100|
-|Rimnicu Vilce|193|
-|Sibiu|253|
-|Timisoara|329|
-|Urziceni|80|
-|Vaslui|199|
-|Zerind|374|
+```
+f(x) = {0 if x <- a}
+       {(x-a)/(m-a) if x E [a,m]}
+       {1 if x E [m,n]}
+       {(b-x)/(b-n) if E [n,b]}
+       {0 if x >= b}
+```
 
+![Trapezoidal Graph](/img/posts_img/trapezoidal_function.png)
 
-#### Using best-first
+##### Example:
 
-#### Using A*
+### Linguistic Variables
+
+A linguistic variable is a variable whose default values are words rather than numbers. It is represented by the elements:
+- X: variable name
+- T(X): Set of values assumed by variable X.
+
+Every linguistic values form a set of terms.
+
+Example:
+
+Being X = age
+T(age) = {Young, very young, mature, old, sort of old, child}
+
+or
+
+X:temperature
+T(temperature) = {high, medium, low}
+
+Each one of T(x) values represents a __fuzzy set__ with a membership function associated to it.
+
+### Fuzzification
+
+Fuzzification is the process of creating fuzzy sets. It consists on:
+
+1. Find a concept to be fuzzified.
+2. Convert concept into a linguistic variable.
+3. Designate reasonable linguistic variables to this variable.
+4. Each one of the values is a fuzzy set defined by its own membership function.
+
+##### Logical operations with fuzzy sets
+
+- Union:
+
+Being A and B two fuzzy sets:
+
+The membership function that represents the union between two fuzzy sets is given by __f<sub>AUB</sub>(x) = max {f<sub>A</sub>(x),f<sub>B</sub>(x)__ or __f<sub>AUB</sub>(x) = f<sub>A</sub>(x) U f<sub>B</sub>(x)__.
+
+- Intersection:
+
+Being A and B two fuzzy sets:
+
+The membership function that represents the intersection between two fuzzy sets is given by __f<sub>A∩B</sub>(x) = min {f<sub>A</sub>(x), f<sub>B</sub>(x)}__ or __f<sub>A∩B</sub>(x) = f<sub>A∩B</sub>(x) = f<sub>A</sub>(x) ∩ f<sub>b</sub>(x)__.
