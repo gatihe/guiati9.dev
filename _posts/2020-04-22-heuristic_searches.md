@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Heuristic Searches"
-excerpt: "Main concepts of blind search algorithms."
+excerpt: "Quick introduction to the concept of heuristics and heuristics searches such as best-first and a-star search algorithms"
 categories: [artificial intelligence]
 comments: true
 ---

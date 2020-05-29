@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fuzzy Logic"
-excerpt: "Main concepts of blind search algorithms."
+excerpt: "Fuzzy set theory, membership functions and fuzzification"
 categories: [artificial intelligence]
 comments: true
 ---
