@@ -73,7 +73,9 @@ Like the AND logical function:
 
 
 
-### Multiple hidden layers ANNs
+### Multilayer Perceptrons
+
+Non linearly separable problems, by the other hand, can be solved by ANNs composed by multilayers perceptrons, that is, ANNs that have more than one hidden layers.
 
 ## How to build an ANN
 
