@@ -18,17 +18,21 @@ The core component of the nervous system and the brain, is the neuron (nerve cel
 
 ![Simple biological neuron](/img/posts_img/simple-biological-neuron-scheme.pbm)
 
-More specifically, the synapse occurs when the axon of a neuron and the dendrite of another neuron gather. They are capable of receiving and sending signals incredibly fast and from/to a lot of other neurons.
+More specifically, the synapse occurs when the axon of a neuron and the dendrite of another neuron gather. They are capable of receiving and sending signals incredibly fast and from/to a lot of other neurons
 
+The neuron can be seen as a device capable of receiving an input from several other neurons and propagating its output.
 
-## Artificial Neural Networks
+The human brain has about 10<sup>11</sup> neurons and each neuron makes, on average, between one and ten thousand synapses. Being the number of synapses higher than 10<sup>14</sup>, it is possible to say that the biological neural network presents high complexity.
 
+## Definition of Artificial Neural Networks
 
+> "An Artificial Neural Network is a massively parallel and distributed system composed of simple processing units that have a natural ability to store and use knowledge" (Bellman, 1999)
 
+> "A artificial neural network is a circuit composed by a large quantity of simple processing units inspired on the biological neural system." (Nigrin, 1993)
 
 ## When to use Artificial Neural Networks
 
-
+In practical terms, an ANN is nothing more than a mathematical model used when there is the need for modeling a system with incomplete theoretical knowledge to the point of making the traditional systematic modeling unfeasible.
 
 ### Best-first Search Algorithm
 
