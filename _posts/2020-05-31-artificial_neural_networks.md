@@ -65,7 +65,7 @@ Usually layers are classified in three groups:
 - Middle/Hidden layers: where most of proccessing is done, through the usage of weighted connections;
 - Output layer: where the final result is concluded and presented.
 
-### One Middle Layer ANNs
+### Single Layer Perceptrons
 
 Artificial neural networks that are composed by a single middle layer can be used to solve linearly separable problems, that is, problems that can be separated by a line segment to represent the division of classes.
 
