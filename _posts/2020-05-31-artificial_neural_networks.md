@@ -45,7 +45,6 @@ The classical neuron model used on artificial neural networks was proposed by Mc
 
 ![McCulloch-Pitts Neuron](/img/posts_img/mcculloch-pitts-model.gif)
 
-
 ## Perceptron
 
 ### Weighs
