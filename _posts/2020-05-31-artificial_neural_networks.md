@@ -94,6 +94,15 @@ Non linearly separable problems, by the other hand, can be solved by ANNs compos
 - Choose the training algorithm.
 
 4. Training:
-- 
+- The classifier should be created in a way that is capable of describe and distinguish an already know set of classes and values. The predictor is created using a labeled training dataset, that is, the ANN output for each input array is already known.
+
+5. Testing:
+- Once the predictor has been created, it is needed to evaluate its performance when applied to data that wasn't used during the training process, known as testing datasets.
+
+## ANN Generalization
+
+Independently of the adopted classifier, it should be trained using a specific training dataset. As a result, the classifier's performance depends on both the number of training examples and the specific values ​​of the examples, that is, the quality of the training dataset.
+
+A classification system should be able to classify future test examples that do not belong to the training dataset. The ability to generalize classifiers refers to its performance when classifying test patterns that were not used during the training stage. 
 
 ## Classification evaluation metrics
