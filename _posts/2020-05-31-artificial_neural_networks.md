@@ -41,11 +41,15 @@ We can use Artificial Neural Networks to make predictions through sets of values
 
 ## McCulloch-Pitts Neuron
 
-The classical neuron model used on artificial neural networks was proposed by McCulloch and Pitts on 1943. It assumed that the neuron presents a logical function. The proposed structure was an abstraction of the real neural activity on real neural systems and served as inspiration to most of future connectionist models developed.
+The very first artificial neuron model used on artificial neural networks was proposed by McCulloch and Pitts in _A logical calculus of the ideas immanent in nervous activity_ on 1943. It assumed that the neuron presents a logical function. The proposed structure was an abstraction of the real neural activity on real neural systems and, although very simple, it was proven extremely versatile and easy to modify. It served as inspiration to most of future connectionist models developed.
 
 ![McCulloch-Pitts Neuron](/img/posts_img/mcculloch-pitts-model.gif)
 
 ## Perceptron
+
+On 1958, Frank Rosenblatt introduced the concept of perceptron, which is a cognitive model that consists on sensorial units connected to a single layer of McCulloch-Pitts neurons, adding the idea of adjustable synapses.
+
+![Rosenblatt's Perceptron](/img/posts_img/perceptron.png)
 
 ### Weighs
 
