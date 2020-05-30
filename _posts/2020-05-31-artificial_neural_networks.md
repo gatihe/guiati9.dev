@@ -14,8 +14,11 @@ Artificial Neural Networks are computational models based on the structure and f
 
 It is possible to state that the human brain is capable of: adapting through learning, behaving according to context, operating with partial knowledge, presenting high memory capacity, parallel and real-time processing. These abilities are the result of the biological neural networks acting.
 
+The core component of the nervous system and the brain, is the neuron (nerve cell). A neuron can be defined as an electrically excitable cell that is capable of doing synapses (to processes and transmits information by electrochemical signalling).
+
 ![Simple biological neuron](/img/posts_img/simple-biological-neuron-scheme.pbm)
 
+More specifically, the synapse occurs when the axon of a neuron and the dendrite of another neuron gather. They are capable of receiving and sending signals incredibly fast and from/to a lot of other neurons.
 
 
 ## Artificial Neural Networks
