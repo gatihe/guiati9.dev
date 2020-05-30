@@ -49,8 +49,12 @@ The very first artificial neuron model used on artificial neural networks was pr
 
 On 1958, Frank Rosenblatt introduced the concept of perceptron, which is a cognitive model that consists on sensorial units connected to a single layer of McCulloch-Pitts neurons, adding the idea of adjustable synapses.
 
-![Rosenblatt's Perceptron](/img/posts_img/perceptron.png =250x)
+![Rosenblatt's Perceptron](/img/posts_img/perceptron.png)
 
+- x<sub>n</sub>: input values
+- w<sub>n</sub>: weights
+- y: represents the sum of all inputs considering their weights
+-
 ### Weighs
 
 ### Activation functions
