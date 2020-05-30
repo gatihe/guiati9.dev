@@ -32,17 +32,12 @@ The human brain has about 10<sup>11</sup> neurons and each neuron makes, on aver
 
 ## When to use Artificial Neural Networks
 
-In practical terms, an ANN is nothing more than a mathematical model used when there is the need for modeling a system with incomplete theoretical knowledge to the point of making the traditional systematic modeling unfeasible.
+In practical terms, an ANN is nothing more than a mathematical model used when there is the need for modeling a system with incomplete theoretical knowledge to the point of making the traditional systematic modeling unfeasible. The problems that can be solved by artificial neural networks, usually present:
 
-### Best-first Search Algorithm
+- Variables with unknown relationship or mathematically intractable.
+- Multidimensionality.
 
-This algorithm is based on the estimation of proximity from the goal state. It __analyzes the current node adjacent nodes and chooses the closest to the goal state__ according to the adjacent nodes evaluation functions.
-
-In this case, the node evaluation function is equal to its heuristic function: f(n) = h(n)
-
-It is recommended to use the best-first algorithm when there is the possibility do estimate the distances to the goal.
-
-The Best-First algorithm usually provides __non optimal solution__. Even providing good results, there might be better ones among the possible solutions. Also, it is considered a __non complete solution__ once it can enter a loop state if it doesn't detect repeated nodes, meaning that it may not even find a solution.
+We can use Artificial Neural Networks to make predictions through sets of values but they are mainly used as a classification tool.
 
 ## McCulloch-Pitts Neuron
 
