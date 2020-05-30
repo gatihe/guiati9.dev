@@ -41,34 +41,11 @@ We can use Artificial Neural Networks to make predictions through sets of values
 
 ## McCulloch-Pitts Neuron
 
-The A* Algorithm evaluates nodes combining the cost to reach each node (g(n)) and the estimate cost to go from that node to the goal node (h(n)).
+The classical neuron model used on artificial neural networks was proposed by McCulloch and Pitts on 1943. It assumed that the neuron presents a logical function.
 
-- f(n) = g(n) + h(n)
-  - g(n) = accumulated cost of state changes up to the current node;
-  - h(n) = estimated cost of the current node until the goal state.
+The proposed structure was an abstraction of the real neural activity on real neural systems and served as inspiration to most of future connectionist models developed.
 
-In order to find the cheapest solution, the algorithm select the nodes with the lowest value of f(n).
-
-This algorithm works with two list of states: _Open_ and _Closed_:
-
-- The open list is a priority queue and it stores nodes that haven't been visited yet or that present some enhancement on total cost.
-- The closed list stores already visited states.
-
-A* Algorithm:
-
-1. Consider P as the initial state.
-2. Calculate _f_, _g_ and _h_ for P.
-3. Add P to _open_ list (By this point P is the only element on this list).
-4. Being M the best node from OPEN_LIST (lowest _f_):
-  - __If__ M is equal to goal state, __then__ finalize and return path.
-  - __If__ OPEN_LIST is empty, __then__ finalize and return error.
-5. To each C node connected to M (successors list):
-  - Calculate _f_, _g_ and _h_ for C.
-  - __If__ C is not in OPEN_LIST or CLOSED_LIST __then__ add C to OPEN_LIST.
-  - __If__ C is in OPEN_LIST or CLOSED_LIST and presents the lowest cost __then__  remove C from OPEN_LIST or CLOSED_LIST and add C to OPEN_LIST.
-6. Move M from OPEN_LIST to CLOSED_LIST and head back to step 4.
-
-
+![McCulloch-Pitts Neuron](/img/posts_img/mcculloch-pitts-model.gif)
 
 
 ## Perceptron
