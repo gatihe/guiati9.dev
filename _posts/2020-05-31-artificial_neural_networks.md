@@ -12,6 +12,10 @@ Artificial Neural Networks are computational models based on the structure and f
 
 ## How biological neurons works
 
+It is possible to state that the human brain is capable of: adapting through learning, behaving according to context, operating with partial knowledge, presenting high memory capacity, parallel and real-time processing. These abilities are the result of the biological neural networks acting.
+
+![Simple biological neuron](/img/posts_img/simple-biological-neuron-scheme.pbm)
+
 
 
 ## Artificial Neural Networks
