@@ -54,7 +54,7 @@ On 1958, Frank Rosenblatt introduced the concept of perceptron, which is a cogni
 - x<sub>n</sub>: input values
 - w<sub>n</sub>: it represents the synaptic weights and have the purpose to amplify or attenuate the input from a neuron
 - Weighted Summation: represents the sum of all inputs considering their weights.
-- Step/Activation Function: the maing goal of activation function is to make neural networks non-linear.
+- Step/Activation Function: the main goal of activation function is to make neural networks non-linear.
 - Output: is the result of the activation function applied to the weighted summation
 
 ## Layers
@@ -79,6 +79,21 @@ Non linearly separable problems, by the other hand, can be solved by ANNs compos
 
 ![Rosenblatt's Perceptron](/img/posts_img/multilayer_perceptron.jpeg)
 
-## How to build an ANN
+## General procedure for building an ANN
+
+1. Collect input data
+- Choose/build a dataset with meaningful data and clean it.
+
+2. Separate input datasets
+- Training dataset: This dataset will be used to create the classifier;
+- Test dataset: Refers to data used after building the ANN in order to verify its performance.
+
+3. Define the network setup:
+- Select the neural paradigm according to the ANN application;
+- Define the topology to be adopted, that is, the number of layers, the number of units in each layer, etc;
+- Choose the training algorithm.
+
+4. Training:
+- 
 
 ## Classification evaluation metrics
