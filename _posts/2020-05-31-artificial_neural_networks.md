@@ -55,16 +55,25 @@ On 1958, Frank Rosenblatt introduced the concept of perceptron, which is a cogni
 - w<sub>n</sub>: it represents the synaptic weights and have the purpose to amplify or attenuate the input from a neuron
 - Weighted Summation: represents the sum of all inputs considering their weights.
 - Step/Activation Function: the maing goal of activation function is to make neural networks non-linear.
-- Output: is the result of the activation function applied to the weighted summation.
+- Output: is the result of the activation function applied to the weighted summation
+
+## Layers
+
+Usually layers are classified in three groups:
+
+- Input layer: where inputs are presented to the ANN;
+- Middle/Hidden layers: where most of proccessing is done, through the usage of weighted connections;
+- Output layer: where the final result is concluded and presented.
+
+### One Middle Layer ANNs
+
+Artificial neural networks that are composed by a single middle layer can be used to solve linearly separable problems, that is, problems that can be separated by a line segment to represent the division of classes.
+
+Like the AND logical function:
 
 
-## ANN Architecture
 
-## Single Layer ANNs
-
-## Nonlinearly separable classifications
-
-## Multilayer perceptron
+### Multiple hidden layers ANNs
 
 ## How to build an ANN
 
