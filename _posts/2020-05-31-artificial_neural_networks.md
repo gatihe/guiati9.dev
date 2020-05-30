@@ -52,12 +52,10 @@ On 1958, Frank Rosenblatt introduced the concept of perceptron, which is a cogni
 ![Rosenblatt's Perceptron](/img/posts_img/perceptron.png)
 
 - x<sub>n</sub>: input values
-- w<sub>n</sub>: weights
-- y: represents the sum of all inputs considering their weights
--
-### Weighs
-
-### Activation functions
+- w<sub>n</sub>: it represents the synaptic weights and have the purpose to amplify or attenuate the input from a neuron
+- Weighted Summation: represents the sum of all inputs considering their weights.
+- Step/Activation Function: the maing goal of activation function is to make neural networks non-linear.
+- Output: is the result of the activation function applied to the weighted summation.
 
 
 ## ANN Architecture
