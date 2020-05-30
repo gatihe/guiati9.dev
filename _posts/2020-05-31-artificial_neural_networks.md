@@ -103,6 +103,8 @@ Non linearly separable problems, by the other hand, can be solved by ANNs compos
 
 Independently of the adopted classifier, it should be trained using a specific training dataset. As a result, the classifier's performance depends on both the number of training examples and the specific values ​​of the examples, that is, the quality of the training dataset.
 
-A classification system should be able to classify future test examples that do not belong to the training dataset. The ability to generalize classifiers refers to its performance when classifying test patterns that were not used during the training stage. 
+A classification system should be able to classify future test examples that do not belong to the training dataset. The ability to generalize classifiers refers to its performance when classifying test patterns that were not used during the training stage.
 
 ## Classification evaluation metrics
+
+The classification evaluation metrics aim to provide a quantitative value of a classifier's quality, most commonly it focuses on estimating the generalization performance, that is, how well the classifier will perform on data not used in training.
