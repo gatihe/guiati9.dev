@@ -41,9 +41,7 @@ We can use Artificial Neural Networks to make predictions through sets of values
 
 ## McCulloch-Pitts Neuron
 
-The classical neuron model used on artificial neural networks was proposed by McCulloch and Pitts on 1943. It assumed that the neuron presents a logical function.
-
-The proposed structure was an abstraction of the real neural activity on real neural systems and served as inspiration to most of future connectionist models developed.
+The classical neuron model used on artificial neural networks was proposed by McCulloch and Pitts on 1943. It assumed that the neuron presents a logical function. The proposed structure was an abstraction of the real neural activity on real neural systems and served as inspiration to most of future connectionist models developed.
 
 ![McCulloch-Pitts Neuron](/img/posts_img/mcculloch-pitts-model.gif)
 
