@@ -8,7 +8,9 @@ comments: true
 
 ## Motivation
 
-Artificial Neural Networks are computational models based on the structure and functions of a  biological neural network. They are considered a nonlinear statistical data modeling tool that presents complex relationships between the input and the output.
+When it comes to Artificial Inteligence, the __symbolic approach__, also known as GOFAI (Good old-fashioned AI) is represented by techniques that aims to model the mind with representations (symbols) such as deductive reasoning, logical inference and search algorithms. As a mutual excludent alternative, there is the __connectionist approach__, which gets its name from the typical network topology that most part of its algorithms present. The most commonly technique adopted by the connectionist approach is the usage of Artificial Neural Networks.
+
+Artificial Neural Networks consists of models based on the structure and functions of a  biological neural network. They are considered a nonlinear statistical data modeling tool that presents complex relationships between the input and the output.
 
 ## How biological neurons works
 
@@ -134,6 +136,17 @@ The __confusion matrix__ (also known as contingency or error matrix) presents th
 Original positive class|TP|FN
 Original negative class|FP|TN
 
+Once the confusion matrix is defined, it gets easier to calculate the __accuracy of the classifier__. The accuracy is represented through the division of the correct classifications by the total of classified items.
 
+- __ACC__ = TP + TN / TP + FP + TN + FN
 
+And the __error rate__ is given by:
+
+- __Error__ = 1 - ACC
+
+It is also possible to determine two other important evaluation metrics, the __true positive rate (TPR)__ and __false positive rate (FPR)__.
+
+- __TPR__ = TP / TP + FN (corresponds to the percentage of positive objects correctly classified as positive)
+
+- __FPR__ = FP / FP + TN (corresponds to the percentage of negative objects incorrectly classified as positive)
 ### Evaluation Metrics for Multi-class Problems
