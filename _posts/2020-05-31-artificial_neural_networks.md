@@ -108,3 +108,30 @@ A classification system should be able to classify future test examples that do 
 ## Classification evaluation metrics
 
 The classification evaluation metrics aim to provide a quantitative value of a classifier's quality, most commonly it focuses on estimating the generalization performance, that is, how well the classifier will perform on data not used in training.
+
+### Evaluation Metrics for Binary Problems
+
+The problem is considered binary when the classification output is divided in only two classes (whether something is or isn't some other thing). It is usually associated with the idea of a target class, that is, the class that fits the value that is trying to be predicted.
+
+Some good examples of binary problems are to predict whether the received message is a spam or not, or whether a loan is going to be approved or not. For these examples, the target classes would be , respectively, spam and approved.
+
+The target class is also called __positive class__, which implies the existence of a __negative class__. Both positive and negative classes allow the definition of specific metrics related to each one.
+
+#### True:
+- __TP (true positive)__: object classified as positive that really belongs to the positive class.
+- __TN (true negative)__: object classified as negative that really belongs to the negative class.
+
+#### False:
+- __FP (false positive)__: object classified as positive when it actually belongs to the negative class (it is also known as type 1 error).
+- __FN (false negative)__: object classified as negative when it actually belongs to the positive class (it is also known as type 2 error).
+
+A good way to fully present the performance of a binary classification algorithm is to build a matrix that relates the desired classes with the predicted classes.
+
+The __confusion matrix__ (also known as contingency or error matrix) presents the original classes and the predicted classes:
+
+||Predicted class|
+||Positive|Negative|
+Original class|Positive|TP|FN
+Original class|Negative|FP|TN
+
+### Evaluation Metrics for Multi-class Problems
