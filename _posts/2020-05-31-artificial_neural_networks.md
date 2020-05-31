@@ -129,9 +129,9 @@ A good way to fully present the performance of a binary classification algorithm
 
 The __confusion matrix__ (also known as contingency or error matrix) presents the original classes and the predicted classes:
 
-|||Predicted class|
-|||Positive|Negative|
-Original class|Positive|TP|FN
-Original class|Negative|FP|TN
+||Predicted class|
+||Positive|Negative|
+Original positive class|TP|FN
+Original negative class|FP|TN
 
 ### Evaluation Metrics for Multi-class Problems
