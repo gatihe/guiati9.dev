@@ -71,10 +71,6 @@ Usually layers are classified in three groups:
 
 Artificial neural networks that are composed by a single middle layer can be used to solve linearly separable problems, that is, problems that can be separated by a line segment to represent the division of classes.
 
-Like the AND logical function:
-
-
-
 ### Multilayer Perceptrons
 
 Non linearly separable problems, by the other hand, can be solved by ANNs composed by multilayers perceptrons, that is, ANNs that have more than one hidden layer.
@@ -149,4 +145,3 @@ It is also possible to determine two other important evaluation metrics, the __t
 - __TPR__ = TP / TP + FN (corresponds to the percentage of positive objects correctly classified as positive)
 
 - __FPR__ = FP / FP + TN (corresponds to the percentage of negative objects incorrectly classified as positive)
-### Evaluation Metrics for Multi-class Problems
