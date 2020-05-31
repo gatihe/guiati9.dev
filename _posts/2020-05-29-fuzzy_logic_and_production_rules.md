@@ -149,3 +149,34 @@ The membership function that represents the union between two fuzzy sets is give
 Being A and B two fuzzy sets:
 
 The membership function that represents the intersection between two fuzzy sets is given by __f<sub>A∩B</sub>(x) = min {f<sub>A</sub>(x), f<sub>B</sub>(x)}__ or __f<sub>A∩B</sub>(x) = f<sub>A∩B</sub>(x) = f<sub>A</sub>(x) ∩ f<sub>b</sub>(x)__.
+
+## Production Rules
+
+In a fuzzy system the knowledge is represented through fuzzy rules (or propositions). Fuzzy rules are statements that relates the variables to fuzzy sets.
+
+A rule is given by __Antecedent -> Consequent__, being:
+
+- __Antecedent__: one or more clauses linked through fuzzy operators (AND, OR, NOT).
+- __Consequent__: the conclusion.
+
+The difference of statements from the symbolic to connectionist logic is that the antecedent and the consequent are now __linguistic variable__ values. As per example:
+
+If __blood_pressure__ is __high__ and __individual_age__ is __elder__;
+Then __health_insurance_cost__ is __very_high__
+
+Being the linguistic values:
+
+- blood_pressure(b) = {low, average, high}
+- indiviual_age(i) = {young, adult, elder}
+- heal_insurance_cost = {low, average, high, very high
+
+The fuzzy reasoning, which simulates human characteristics, is executed through inference, which allows drawing conclusions based on known facts.
+
+### Steps to Create Fuzzy Production Rules
+
+1. Create linguistic variables;
+2. Choose domain values to the input linguistic variables;
+3. Choose domain values to the output linguistic variable;
+4. Associate fuzzy sets to each variable;
+5. Create membership functions to each varaiable
+6. Define fuzzy rules
