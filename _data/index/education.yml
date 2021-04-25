@@ -1,7 +1,11 @@
+- name: Pontifical Catholic University of Minas Gerais - PUC-MG
+  link: https://www.ft.unicamp.br/
+  date: 2021 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  descr: <br> (expected graduation in 2022)
+
 - name: School of Technology at State University of Campinas - UNICAMP
   link: https://www.ft.unicamp.br/
-  date: 2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2020)
+  date: 2016 - 2021
 
 - name: Federal University of ABC - UFABC
   link: http://www.ufabc.edu.br/
