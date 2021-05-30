@@ -38,3 +38,8 @@ For example: A company keep daily track of the number of sales of their new empl
 
 The usual form to represent the cumulative distribution function is:
 ![Sum of probabilities](/img/posts_img/random-variables/distfun.png)
+
+### Mean, Variance and Standard Deviation for discrete random variables
+
+- The mean or mathematical expectation of a discrete random variable is given by:
+![Mathematical Expectation](/img/posts_img/random-variables/mean.png)
