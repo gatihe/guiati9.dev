@@ -43,3 +43,11 @@ The usual form to represent the cumulative distribution function is:
 
 - The mean or mathematical expectation of a discrete random variable is given by:
 ![Mathematical Expectation](/img/posts_img/random-variables/mean.png)
+
+- The variance of a discrete random variable is:
+![Variance](/img/posts_img/random-variables/variance.png)
+
+- The standard deviation is obtained by the square root of the variance, i.e,
+![Standard Deviation](/img/posts_img/random-variables/stdtion.png)
+
+### Properties of the mathematical expectation: 
