@@ -20,4 +20,4 @@ There are two types of random variables:
 
 It is possible to assign a probability to each value of a discrete variable. By enumerating each value of the random variable with its corresponding probability, a probability distribution is formed.
 
-*Definition:* A discrete probability distribution enumerates each value the random variable can take, along with its probability. A probability distribution must satisfy the following conditions: 1) A probability of each value of the discrete variable must be within the range of 0 to 1, i.e, 0 <= P(X=x) <= 1; 2) The sum of all probabilities must be equal to 1, i.e, $\sum$P(X=xi) = 1.
+*Definition:* A discrete probability distribution enumerates each value the random variable can take, along with its probability. A probability distribution must satisfy the following conditions: 1) A probability of each value of the discrete variable must be within the range of 0 to 1, i.e, 0 <= P(X=x) <= 1; 2) The sum of all probabilities must be equal to 1, i.e, ![Sum of probabilities](/img/posts_img/random-variables/sump.png)
