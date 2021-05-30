@@ -24,13 +24,14 @@ It is possible to assign a probability to each value of a discrete variable. By 
 
 
 For example: A company keep daily track of the number of sales of their new employees during a trial period of one hundred days. The results for a new employee are represented below in a frequency table.
-|Sales per day (x)|Number of days (Frequency)|**Probabilities (P(X=x))**|
-|0|16|0.16|
-|1|19|0.19|
-|2|15|0.15|
-|3|21|0.21|
-|4|9|0.09|
-|5|10|0.10|
-|6|8|0.08|
-|7|2|0.02|
-|Total|100|1|
+
+| Sales per day (x) | Number of days (Frequency) | **Probabilities (P(X=x))** |
+| 0 | 16 | 0.16 |
+| 1 | 19 | 0.19 |
+| 2 | 15 | 0.15 |
+| 3 | 21 | 0.21 |
+| 4 | 9 | 0.09 |
+| 5 | 10 | 0.10 |
+| 6 | 8 | 0.08 |
+| 7 | 2 | 0.02 |
+| Total | 100 | 1 |
