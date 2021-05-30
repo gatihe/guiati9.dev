@@ -35,3 +35,6 @@ For example: A company keep daily track of the number of sales of their new empl
 | 6 | 8 | 0.08 |
 | 7 | 2 | 0.02 |
 | Total | 100 | 1 |
+
+The usual form to represent the cumulative distribution function is:
+![Sum of probabilities](/img/posts_img/random-variables/distfun.png)
