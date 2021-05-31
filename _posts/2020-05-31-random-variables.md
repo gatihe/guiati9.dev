@@ -63,3 +63,11 @@ The usual form to represent the cumulative distribution function is:
 1. Property 1: If c is a constant, then Var(X+c) = Var(X).
 2. Assume that c is a constant and X is a random variable. Then Var(cX) = cˆ2 * Var(X).
 3. If (X, Y) is a two-dimentional random variable, and if X and Y are independent. Then Var(X+Y) = Var(X) + Var(Y).
+
+## Continuous random variables
+
+*Definition:*  A random variable X, defined under the sample space and assuming values in a range of real numbers is defined as a continuous random variable.
+
+*Definition:* X is defined as a continuous random variable if there is a probatility density function of X that satisfies the following conditions:
+ - f(x) >= 0 for all x;
+ - The area defined by f(x) is equal to 1, i.e, ![fx](/img/posts_img/random-variables/fx.png)
