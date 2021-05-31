@@ -71,3 +71,7 @@ The usual form to represent the cumulative distribution function is:
 *Definition:* X is defined as a continuous random variable if there is a probatility density function of X that satisfies the following conditions:
  - f(x) >= 0 for all x;
  - The area defined by f(x) is equal to 1, i.e, ![fx](/img/posts_img/random-variables/fx.png)
+ - For every a and b, with - infinity < a < b < + infinity, there is ![prop3](/img/posts_img/random-variables/prop3.png)
+
+ **Example** Consider the following function:
+![example1](/img/posts_img/random-variables/exercise1.png)
