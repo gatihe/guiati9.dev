@@ -50,4 +50,16 @@ The usual form to represent the cumulative distribution function is:
 - The standard deviation is obtained by the square root of the variance, i.e,
 ![Standard Deviation](/img/posts_img/random-variables/stdtion.png)
 
-### Properties of the mathematical expectation: 
+#### Properties of the mathematical expectation:
+
+1. Property 1. If X = c, where c is a constant, then E(X) = c
+2. Property 2. Assume that c is a constant and X is a random variable. Then E(c * X) = c * E(X).
+3. Being X and Y two random variables, then E(X+Y) = E(X) + E(Y)
+  1. If Y = aX + b, where a and b are constants, then E(Y) = aE(X) + b. That means the expected value of a linear function of X.
+  2. For n random variables X1, X2, ..., Xn. Then E(X1+X2+...+Xn) = E(X1) + E(X2) + ... + E(Xn).
+
+#### Properties of the variance:
+
+1. Property 1: If c is a constant, then Var(X+c) = Var(X).
+2. Assume that c is a constant and X is a random variable. Then Var(cX) = cˆ2 * Var(X).
+3. If (X, Y) is a two-dimentional random variable, and if X and Y are independent. Then Var(X+Y) = Var(X) + Var(Y).
