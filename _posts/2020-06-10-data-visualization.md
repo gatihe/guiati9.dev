@@ -31,6 +31,13 @@ The Anscombe's Quartet is a good example of the importance of data visualization
 
 **1861**: Charles Minard (French civil engineer) portrayed the decimation of Napoleon's army during its campaign agains Russia.
 
-![Minard's Chart](/img/posts_img/random-variables/800px-Minard.jpeg)
+![Minard's Chart](/img/posts_img/random-variables/800px-Minard.png)
 
-**1914**: Williard Brinton (American engineer) has published the first book on data visualization for business - *Graphic Methods for presenting Facts*. Brinton analysed railway companies charts and suggested enhancements. He suggested rules for data presentation and provides examples of charts to be avoided and charts to be adopted. 
+**1914**: Williard Brinton (American engineer) published the first book on data visualization for business - *Graphic Methods for presenting Facts*. Brinton analysed railway companies charts and suggested enhancements. He suggested rules for data presentation and provides examples of charts to be avoided and charts to be adopted.
+
+**1952**: Mary Eleanor Spear published a book proposing good practices on building charts - *practical charting techniques* - after decades working for the American government.
+
+**1967**: Jacques Bertin (French cartographer and theorist) published the first book on theory of visualization, *"Semiology of Graphics"*. On his work, Jacques described 7 visual variables: position, size, shape, value, hue, orientation and texture.
+
+![Bertin Visual Variables](/img/posts_img/random-variables/5fa44835ab735150a7e18135_visual_variables.png)
+
