@@ -41,5 +41,9 @@ The Anscombe's Quartet is a good example of the importance of data visualization
 
 ![Bertin Visual Variables](/img/posts_img/random-variables/5fa44835ab735150a7e18135_visual_variables.png)
 
-Jacques has also descried two principles for data visualization:  expressiveness - say everything you want, no more and no less - and effectiveness - pick the best available method to display your data, that means, choose the visual method that will most efficiently and accuratelly broadcast the meaning of your data. 
+Jacques has also descried two principles for data visualization:  expressiveness - say everything you want, no more and no less - and effectiveness - pick the best available method to display your data, that means, choose the visual method that will most efficiently and accuratelly broadcast the meaning of your data.
+
+**1970s**: John Tukey (American mathematician) was the pioneer on the use of computers for data visualization and popularized the concept of exploratory and confirmatory visualization.
+
+**1983**: Edward Tuffte, one of the most important specialists on infographics, published in his book - *The Visual Display of Quantitative Information* - ways to combine statistical rigor with clarity and graphic design principles. 
 
