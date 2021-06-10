@@ -6,7 +6,7 @@ categories: [data visualization]
 comments: true
 ---
 
-Data visualization consists of methods and techniques of graphical representation of information and data trough charts and maps. It provides a accessible way of understanding trends, outliers and patterns in data.
+Data visualization consists of methods and techniques of graphical representation of information and data trough charts and maps. It provides an accessible way of understanding trends, outliers and patterns in data.
 
 
 #### Anscombe's Quartet
@@ -15,7 +15,7 @@ Anscombe's Quartet is a group of four datasets that have nearly identical simple
 
 ![Anscombes Quartet](/img/posts_img/random-variables/Anscombes-quartet-of-different-XY-plots-of-four-data-sets-having-identical-averages.png)
 
-The Anscombe's Quartet is a good example of the importance of data visualization. Oftentimes, calculating the basic statistics for a dataset is not enough to fully understand the domain of the question being analyzed. Even worst, it can lead to wrong interpretations of the data.
+The Anscombe's Quartet is a good example of the importance of data visualization. Oftentimes, calculating the basic statistics for a dataset is not enough to fully understand the domain of the question being analysed. Even worst, it can lead to wrong interpretations of the data.
 
 ### Main Contribuitions to Data Visualization
 
@@ -24,3 +24,13 @@ The Anscombe's Quartet is a good example of the importance of data visualization
 **1854**: John Snow (British physician) discovers the transmitting source of cholera and registered using a map the location of obit occurrences.
 
 ![John Snow Cholera Map](/img/posts_img/random-variables/john-snow-cholera-map-huge.jpeg)
+
+**1861**: Florence Nightingale (British nurse) developed the coxcomb diagram that helped the visualization of the British army casualties during the Crimea War. Nightingale's work is accredited for sanitary enhancement's on hospital as it has shown how diseases, over all the other factors, was the responsible for soldiers deaths.
+
+![Nightingale's Coxcomb Diagram](/img/posts_img/random-variables/800px-Nightingale-mortality.jpeg)
+
+**1861**: Charles Minard (French civil engineer) portrayed the decimation of Napoleon's army during its campaign agains Russia.
+
+![Minard's Chart](/img/posts_img/random-variables/800px-Minard.jpeg)
+
+**1914**: Williard Brinton (American engineer) has published the first book on data visualization for business - *Graphic Methods for presenting Facts*. Brinton analysed railway companies charts and suggested enhancements. He suggested rules for data presentation and provides examples of charts to be avoided and charts to be adopted. 
