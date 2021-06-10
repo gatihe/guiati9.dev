@@ -41,3 +41,5 @@ The Anscombe's Quartet is a good example of the importance of data visualization
 
 ![Bertin Visual Variables](/img/posts_img/random-variables/5fa44835ab735150a7e18135_visual_variables.png)
 
+Jacques has also descried two principles for data visualization:  expressiveness - say everything you want, no more and no less - and effectiveness - pick the best available method to display your data, that means, choose the visual method that will most efficiently and accuratelly broadcast the meaning of your data. 
+
