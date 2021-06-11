@@ -45,5 +45,16 @@ Jacques has also descried two principles for data visualization:  expressiveness
 
 **1970s**: John Tukey (American mathematician) was the pioneer on the use of computers for data visualization and popularized the concept of exploratory and confirmatory visualization.
 
-**1983**: Edward Tuffte, one of the most important specialists on infographics, published in his book - *The Visual Display of Quantitative Information* - ways to combine statistical rigor with clarity and graphic design principles. 
+**1983**: Edward Tuffte, one of the most important specialists on infographics, published in his book - *The Visual Display of Quantitative Information* - ways to combine statistical rigor with clarity and graphic design principles.
 
+**1986**: Jock Mackinlay published his PhD thesis that brought Jacques Bertin's work to the digital era. Also added an eighth variable - movement.
+
+**1999**: Leland Wilkinson stablished a concise grammar to describe the components of a chart.
+
+ ![Grammar of Graphics](/img/posts_img/random-variables/ggplot-grammar-of-graphics-stack-1.png)
+
+ **2010 decade**:
+
+ - Internet, accessible softwares and huge data volume popularized the practice of data visualization
+ - The field covers different topics such as psychology, neuroscience and economy.
+ - Visualization tools improve continuously (better quality charts, iteractivity).
