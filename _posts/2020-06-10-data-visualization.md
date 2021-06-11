@@ -58,3 +58,21 @@ Jacques has also descried two principles for data visualization:  expressiveness
  - Internet, accessible softwares and huge data volume popularized the practice of data visualization
  - The field covers different topics such as psychology, neuroscience and economy.
  - Visualization tools improve continuously (better quality charts, iteractivity).
+
+ **Nowadays**:
+
+ - New dimensions: animation and iteractivity
+ - Access speed: Real time updates, dynamic web reports, *smart things* such as smart watches and sports mobile applications;
+ - Huge volume of data, dashboard monitoring.
+
+
+### Main definitions and types of data visualization
+
+>> The representation and presentation of data that exploits our ability of visual perception in order to increase comprehension. - 2019, KIRK.
+
+Important notes about this definition are:
+
+- **Representation**: how to frame concepts and data, the process of choosing geometric shapes, visual variables, design principles;
+- **Presentation**: how to communicate using the visualization;
+- **Visual perception**: how the visual information is perceived and processed.
+- **Comprehension**: how to maximize the efficiency and effectiveness of the information with impact and integrity.
