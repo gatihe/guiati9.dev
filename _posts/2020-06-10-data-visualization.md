@@ -76,3 +76,12 @@ Important notes about this definition are:
 - **Presentation**: how to communicate using the visualization;
 - **Visual perception**: how the visual information is perceived and processed.
 - **Comprehension**: how to maximize the efficiency and effectiveness of the information with impact and integrity.
+
+
+According to Berinato (2016), data visualization can be conceptual or data driven, it can also be declarative or exploratory.
+
+![Berinato](/img/posts_img/random-variables/keypoints-berinato.jpeg)
+
+- Conceptual: Used to visualize ideas or concepts, the main goal is to organize, simplify and illustrate concepts.
+- Data-Driven: Visualizations used to demonstrate statistics and patterns, the goal is to inform/to clarify.
+- Exploratory: Main goal is to prototype, make discoveries and to taper hypothesis.
