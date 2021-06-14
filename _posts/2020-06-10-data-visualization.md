@@ -94,3 +94,55 @@ According to Edward Tufte, a graphical visualization must:
 According to Berinato (2016) there are two aspects that are resposible to determine the type of view:
 1. Is the information conceptual or data oriented?
 2. Is it declaring or exploring something?
+
+According to Berinato (2016), data visualization can be conceptual or data driven, it can also be declarative or exploratory.
+
+![Berinato](/img/posts_img/random-variables/keypoints-berinato.jpeg)
+
+- Conceptual: Used to visualize ideas or concepts, the main goal is to organize, simplify and illustrate concepts.
+- Data-Driven: Visualizations used to demonstrate statistics and patterns, the goal is to inform/to clarify.
+- Exploratory: Main goal is to prototype, make discoveries and to taper hypothesis.
+
+### Basic principles for Visual Interface projects
+
+#### Affordances
+
+>> A perceived affordance is a possible action to an agent (Norman 1988)
+
+Affordances, according to Norman's definition are objects characteristics capable of revealing to its users possible interactions and manipulations.
+
+#### Usability
+
+Usability as defined in 1993 by Nielsen as a set of factors:
+- Learnability: Related to how hard is it to understand and operate the available resources.
+- Memorability: how can the user reproduce actions taken earlier.
+- Efficiency: If the amount of work to execute an action is aligned with the user goal.
+- Safety: Can the action be undone? Are there ways to recover it original state? Are there warnings for the user?
+- Satisfaction: Do the actions properly execute what they seem to do?
+
+#### User Experience
+
+According to Norman (2013):
+
+>> The user experience with a product goes beyond of its usability; it includes more subjective aspects such as aesthetics, satisfaction and fun.
+
+When talking about data visualization, it is needed to be aware of the following topics:
+
+- Use colors smartly:
+ - Color selection must be done with a intention;
+ - Colors should be strategically used to highlight important parts of the visualization
+
+- Pay attention to alignment:
+ - Arrange elements on page in order to create vertical and horizontal lines in order to establish a sense of unity and cohesion.
+
+- Use whitespaces:
+ - Preserve margins, do not stretch graphic elements to fill space and do not add more elements due to extra space.
+
+#### Accessibility
+
+Accessibility can be defined as providing the means so the user can access the system and interact with it. Providing accessible systems allows that more people can access them.
+
+Knaflic proposes in 2015 some recommendations to simplify visual communication.
+- Make it readable: Adopt simple and easy to read fonts (consider the type and size)
+- Make it clean: Make it accessible by using visual affordances.
+- Adopt simple vocabulary: Use less words, clarify acronyms, and avoid complex definitions.
