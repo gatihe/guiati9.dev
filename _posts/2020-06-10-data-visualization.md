@@ -70,13 +70,30 @@ Jacques has also descried two principles for data visualization:  expressiveness
 
 >> The representation and presentation of data that exploits our ability of visual perception in order to increase comprehension. - 2019, KIRK.
 
-Important notes about this definition are:
+Being:
 
 - **Representation**: how to frame concepts and data, the process of choosing geometric shapes, visual variables, design principles;
 - **Presentation**: how to communicate using the visualization;
 - **Visual perception**: how the visual information is perceived and processed.
 - **Comprehension**: how to maximize the efficiency and effectiveness of the information with impact and integrity.
 
+>> Excellence in statistical graphics consists of complex ideas communicated with clarity, precision and efficiency. - 1983, Edward Tufte
+
+According to Edward Tufte, a graphical visualization must:
+
+1. Show data;
+2. Make the user think about the subject being presented, instead of thinking about the methodology, graphic design and so on;
+3. Encourage the eyes to compare different data;
+4. Reveal the data in different levels of detailing, from the big picture to the details;
+5. Avoid distorting what the graphics have to say;
+6. Avoid presenting too much numbers on a small space.
+
+- **Scientific Visualization**: Data presents a spatial context (usually consists of simulations) and its goal is usually related to map spatial quantities into colors or geometric shapes.
+- **Data Visualization**: Spatial position is seccondary or inexistent and its goal is mainly to illustrate relations between abstract attributes.
+
+According to Berinato (2016) there are two aspects that are resposible to determine the type of view:
+1. Is the information conceptual or data oriented?
+2. Is it declaring or exploring something?
 
 According to Berinato (2016), data visualization can be conceptual or data driven, it can also be declarative or exploratory.
 
